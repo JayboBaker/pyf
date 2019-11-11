@@ -4,7 +4,7 @@ slug: contact
 title: Get in touch
 featuredImage: 'https://ucarecdn.com/e22a858a-b420-47af-99f6-ed54b6860333/'
 subtitle: Contact us for a no-obligation quote
-address: 'Palma Di Mallorca, Spain'
+address: 'Palma De Mallorca, 07014 Palma, Balearic Islands, Spain'
 phone: The work number (MAYBE REMOVE?)
 email: example@example.com (MAYBE REMOVE?)
 locations:
