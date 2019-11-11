@@ -8,7 +8,7 @@ import './Form.css'
 class Form extends React.Component {
   static defaultProps = {
     name: 'Simple Form Ajax',
-    subject: '', // optional subject of the notification email
+    subject: 'Website Notification', // optional subject of the notification email
     action: '',
     successMessage: 'Thanks for your enquiry, we will get back to you soon',
     errorMessage:
@@ -89,39 +89,25 @@ class Form extends React.Component {
                 type="text"
                 placeholder="Lastname"
                 name="lastname"
-                required
               />
               <span>Lastname</span>
             </label>
           </div>
-          <fieldset>
-            <label className="Form--Label Form--Radio">
-              <input
-                className="Form--RadioInput"
-                type="radio"
-                name="gender"
-                value="male"
-                defaultChecked
-              />
-              <span>Male</span>
-            </label>
-            <label className="Form--Label Form--Radio">
-              <input
-                className="Form--RadioInput"
-                type="radio"
-                name="gender"
-                value="female"
-              />
-              <span>Female</span>
-            </label>
-          </fieldset>
           <label className="Form--Label">
             <input
               className="Form--Input Form--InputText"
               type="email"
               placeholder="Email"
               name="emailAddress"
-              required
+            />
+            <span>Phone Number</span>
+          </label>
+          <label className="Form--Label">
+            <input
+              className="Form--Input Form--InputText"
+              type="text"
+              placeholder="Phone"
+              name="phoneNumber"
             />
             <span>Email address</span>
           </label>
@@ -130,14 +116,13 @@ class Form extends React.Component {
               className="Form--Input Form--Select"
               name="type"
               defaultValue="Type of Enquiry"
-              required
             >
               <option disabled hidden>
                 Type of Enquiry
               </option>
-              <option>Need to know more</option>
-              <option>Found a bug</option>
-              <option>Want to say hello</option>
+              <option>Quotation</option>
+              <option>Available Services</option>
+              <option>Sub-contracting</option>
             </select>
           </label>
           <label className="Form--Label">
