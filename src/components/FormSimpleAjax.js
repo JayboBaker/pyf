@@ -23,7 +23,8 @@ class Form extends React.Component {
 
   state = {
     alert: '',
-    disabled: false
+    disabled: false,
+    values: {}
   }
 
   handleSubmit = e => {
@@ -31,15 +32,11 @@ class Form extends React.Component {
     if (this.state.disabled) return
 
     const form = e.target
-    // const data = serialize(form)
     this.setState({ disabled: true })
     fetch(form.action, {
       method: 'POST',
       headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-      body: encode({
-        "form-name": form.getAttribute("name"),
-        ...form
-      })
+      body: encode(this.state.values)
     })
       .then(res => {
         if (res.ok) {
@@ -62,6 +59,13 @@ class Form extends React.Component {
           alert: this.props.errorMessage
         })
       })
+  }
+
+  handleChange = e => {
+    this.setState({ values: {
+      ...this.state.values,
+      [e.target.name]: e.target.value
+    }})
   }
 
   render() {
@@ -92,6 +96,7 @@ class Form extends React.Component {
                 placeholder="Firstname"
                 name="firstname"
                 required
+                onChange={this.handleChange}
               />
               <span>Firstname</span>
             </label>
@@ -101,6 +106,7 @@ class Form extends React.Component {
                 type="text"
                 placeholder="Lastname"
                 name="lastname"
+                onChange={this.handleChange}
               />
               <span>Lastname</span>
             </label>
@@ -111,6 +117,7 @@ class Form extends React.Component {
               type="email"
               placeholder="Email"
               name="emailAddress"
+              onChange={this.handleChange}
             />
             <span>Email address</span>
           </label>
@@ -120,6 +127,7 @@ class Form extends React.Component {
               type="text"
               placeholder="Phone"
               name="phoneNumber"
+              onChange={this.handleChange}
             />
             <span>Phone Number</span>
           </label>
@@ -128,6 +136,7 @@ class Form extends React.Component {
               className="Form--Input Form--Select"
               name="type"
               defaultValue="Type of Enquiry"
+              onChange={this.handleChange}
             >
               <option disabled hidden>
                 Type of Enquiry
@@ -145,6 +154,7 @@ class Form extends React.Component {
               name="message"
               rows="10"
               required
+              onChange={this.handleChange}
             />
             <span>Message</span>
           </label>
@@ -153,6 +163,7 @@ class Form extends React.Component {
               className="Form--Input Form--Textarea Form--CheckboxInput"
               name="newsletter"
               type="checkbox"
+              onChange={this.handleChange}
             />
             <span>Get news updates</span>
           </label>
