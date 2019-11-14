@@ -1,9 +1,15 @@
 import React, { Fragment } from 'react'
 import Helmet from 'react-helmet'
-import { stringify } from 'qs'
-import { serialize } from 'dom-form-serializer'
+// import { stringify } from 'qs'
+// import { serialize } from 'dom-form-serializer'
 
 import './Form.css'
+
+const encode = (data) => {
+  return Object.keys(data)
+      .map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
+      .join("&");
+}
 
 class Form extends React.Component {
   static defaultProps = {
@@ -25,11 +31,15 @@ class Form extends React.Component {
     if (this.state.disabled) return
 
     const form = e.target
-    const data = serialize(form)
+    // const data = serialize(form)
     this.setState({ disabled: true })
-    fetch(form.action + '?' + stringify(data), {
+    fetch(form.action, {
       method: 'POST',
-      headers: { 'Content-Type': 'application/x-www-form-urlencoded' }
+      headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+      body: encode({
+        "form-name": form.getAttribute("name"),
+        ...form
+      })
     })
       .then(res => {
         if (res.ok) {
@@ -60,7 +70,7 @@ class Form extends React.Component {
     return (
       <Fragment>
         <Helmet>
-          <script src="https://www.google.com/recaptcha/api.js" />
+          {/* <script src="http://www.google.com/recaptcha/api.js" /> */}
         </Helmet>
         <form
           className="Form"
@@ -68,7 +78,8 @@ class Form extends React.Component {
           action={action}
           onSubmit={this.handleSubmit}
           data-netlify="true"
-          netlify-recaptcha="true"
+          data-netlify-honeypot="bot-field"
+          // netlify-recaptcha=""
         >
           {this.state.alert && (
             <div className="Form--Alert">{this.state.alert}</div>
@@ -126,6 +137,7 @@ class Form extends React.Component {
               <option>Sub-contracting</option>
             </select>
           </label>
+          <input type="hidden" name="bot-field" />
           <label className="Form--Label">
             <textarea
               className="Form--Input Form--Textarea Form--InputText"
@@ -144,10 +156,10 @@ class Form extends React.Component {
             />
             <span>Get news updates</span>
           </label>
-          <div
+          {/* <div
             className="g-recaptcha"
             data-sitekey="6LfMVsIUAAAAAO7fIKvzJeQ33WidT75jOYUR_sl3"
-          />
+          /> */}
           {!!subject && <input type="hidden" name="subject" value={subject} />}
           <input type="hidden" name="form-name" value={name} />
           <input
