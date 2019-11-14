@@ -28,7 +28,8 @@ class Form extends React.Component {
     const data = serialize(form)
     this.setState({ disabled: true })
     fetch(form.action + '?' + stringify(data), {
-      method: 'POST'
+      method: 'POST',
+      headers: { 'Content-Type': 'application/x-www-form-urlencoded' }
     })
       .then(res => {
         if (res.ok) {
@@ -66,8 +67,8 @@ class Form extends React.Component {
           name={name}
           action={action}
           onSubmit={this.handleSubmit}
-          data-netlify=""
-          netlify-recaptcha=""
+          data-netlify="true"
+          netlify-recaptcha="true"
         >
           {this.state.alert && (
             <div className="Form--Alert">{this.state.alert}</div>
@@ -100,7 +101,7 @@ class Form extends React.Component {
               placeholder="Email"
               name="emailAddress"
             />
-            <span>Phone Number</span>
+            <span>Email address</span>
           </label>
           <label className="Form--Label">
             <input
@@ -109,7 +110,7 @@ class Form extends React.Component {
               placeholder="Phone"
               name="phoneNumber"
             />
-            <span>Email address</span>
+            <span>Phone Number</span>
           </label>
           <label className="Form--Label has-arrow">
             <select
