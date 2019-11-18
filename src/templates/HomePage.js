@@ -4,23 +4,34 @@ import { graphql } from 'gatsby'
 import PageHeader from '../components/PageHeader'
 import Content from '../components/Content'
 import Layout from '../components/Layout'
-
+import Logo from '../../static/images/logo.svg'
 // Export Template for use in CMS preview
 export const HomePageTemplate = ({ title, subtitle, featuredImage, body }) => (
   <main className="Home">
-    <PageHeader
+    {/* <PageHeader
       large
       title={title}
       subtitle={subtitle}
       backgroundImage={featuredImage}
-    />
+    /> */}
 
     <section className="section">
       <div className="container">
-        <Content source={body} />
+        <h1>Currently under contruction</h1>
+        {/* <Content source={body} /> */}
       </div>
     </section>
   </main>
+)
+
+export const underConstruction = () => (
+  <section className="section">
+    <div className="container" style={{ textAlign: 'center'}}>
+      <img style={{maxWidth: '100%' }}src={Logo} />
+      <h1>Currently under construction</h1>
+      {/* <Content source={body} /> */}
+    </div>
+  </section>
 )
 
 // Export Default HomePage for front-end
@@ -30,7 +41,7 @@ const HomePage = ({ data: { page } }) => (
   </Layout>
 )
 
-export default HomePage
+export default underConstruction
 
 export const pageQuery = graphql`
   ## Query for HomePage data
