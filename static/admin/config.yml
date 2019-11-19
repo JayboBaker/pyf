@@ -5,7 +5,7 @@ backend:
 
 # display_url: https://gatsbro.netlify.com # This url will display in the top-right of the CM
 public_folder: /img
-# media_folder: static/img
+media_folder: static/img
 media_library:
   name: uploadcare
   config:

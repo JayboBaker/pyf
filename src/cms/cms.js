@@ -12,7 +12,7 @@ import { BlogIndexTemplate } from '../templates/BlogIndex'
 import { SinglePostTemplate } from '../templates/SinglePost'
 
 CMS.init()
-// console.log({ CMS })
+
 if (
   window.location.hostname === 'localhost' &&
   window.localStorage.getItem('netlifySiteURL')
@@ -23,6 +23,7 @@ if (
 } else {
   CMS.registerPreviewStyle('/styles.css')
 }
+CMS.registerMediaLibrary('uploadcare', uploadcare)
 
 CMS.registerPreviewTemplate('home-page', ({ entry }) => (
   <HomePageTemplate {...entry.toJS().data} />
@@ -42,5 +43,3 @@ CMS.registerPreviewTemplate('blog-page', ({ entry }) => (
 CMS.registerPreviewTemplate('posts', ({ entry }) => (
   <SinglePostTemplate {...entry.toJS().data} />
 ))
-
-CMS.registerMediaLibrary(uploadcare)
