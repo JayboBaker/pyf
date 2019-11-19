@@ -1,5 +1,7 @@
 import React from 'react'
 import CMS from 'netlify-cms-app'
+import uploadcare from 'netlify-cms-media-library-uploadcare'
+
 import './cms-utils'
 
 import { HomePageTemplate } from '../templates/HomePage'
@@ -9,6 +11,8 @@ import { DefaultPageTemplate } from '../templates/DefaultPage'
 import { BlogIndexTemplate } from '../templates/BlogIndex'
 import { SinglePostTemplate } from '../templates/SinglePost'
 
+CMS.init()
+// console.log({ CMS })
 if (
   window.location.hostname === 'localhost' &&
   window.localStorage.getItem('netlifySiteURL')
@@ -38,3 +42,5 @@ CMS.registerPreviewTemplate('blog-page', ({ entry }) => (
 CMS.registerPreviewTemplate('posts', ({ entry }) => (
   <SinglePostTemplate {...entry.toJS().data} />
 ))
+
+CMS.registerMediaLibrary(uploadcare)
