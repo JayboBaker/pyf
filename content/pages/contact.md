@@ -2,7 +2,7 @@
 template: ContactPage
 slug: contact
 title: Get in touch
-featuredImage: 'https://ucarecdn.com/e22a858a-b420-47af-99f6-ed54b6860333/'
+featuredImage: 'https://ucarecdn.com/af70fc8c-29ef-4c40-9063-c8235db7d4c0/'
 subtitle: Contact us for a no-obligation quote
 address: 'Palma De Mallorca, 07014 Palma, Balearic Islands, Spain'
 phone: The work number (MAYBE REMOVE?)
