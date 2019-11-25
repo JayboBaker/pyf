@@ -1,30 +1,40 @@
 ---
 template: HomePage
 slug: ''
-title: Yellowcake
+title: Professional Nautical Finishing
 featuredImage: 'https://ucarecdn.com/159203d3-881d-4218-baa1-ca4427b48d0d/'
-subtitle: ' Welcome to the ultimate Gatsby and Netlify starter project.'
+subtitle: ' Welcome to the home of top quality yacht finishing in Palma De Mallorca'
 meta:
-  description: This is a meta description.
-  title: The Ultimate Gatsby Starter
+  description: We provide the highest quality work
+  title: Pinnacle Yacht Finishing
 ---
-Yellowcake is an opinionated starter project created by [Thrive Digital](https://thriveweb.com.au/) a [Gold Coast Web Design](https://thriveweb.com.au/) studio. to help you create lightening fast websites with [Gatsby](https://gatsbyjs.org) and [Netlify CMS](https://netlifycms.org).
 
-View the [project overview](https://thriveweb.com.au/the-lab/yellowcake-gatsby-react-js-starter-project/) and the [docs](https://github.com/thriveweb/yellowcake/blob/master/README.md).
+# We complete our work to highest standards
+Pinnacle can offer all services relating to Varnishing, High Gloss Polishing, Sikaflex, Spraying, Brushing and Touch Ups, Onboard and in Luxury Interiors
 
-# Features
+## You can rely on our experience
 
-* **[Gatsby](https://gatsbyjs.org)** static site generator
-* **[Netlify CMS](https://github.com/netlify/netlify-cms)** for content management
-* Dynamic menus and forms
-* **[Mailchimp](http://mailchimp.com)** and **[Uploadcare](https://uploadcare.com)** integrations
-* Fully responsive layout for mobile and widescreen browsing
-* Blog searching and paging functionality
-* Seamless image and content sliders
-* Instagram feed integration
+Having worked within the industry for over 10 years, and having gained valuable knowledge and experience, James decided start Pinnacle Yacht Finishing in 2017.
 
-## Get started
+Over the past 10 years we've worked for some of the most established companies on the Island of Mallorca. Having been responsible for many of their big projects both on the interior and exterior. We're is a recognisable firm along the docks and shipyards of Mallorca.
 
-View the [Netlify CMS Docs](https://www.netlifycms.org/docs/) and the [Netlify CMS Repo](https://github.com/netlify/netlify-cms).
+All of our finshers are fully qualified in many of the highly skilled aspects of yacht finishing. We are knowledgable about all of the most up to date techniques and products.
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/thriveweb/yellowcake&stack=cms)
+## Some of our services
+
+Pinnacle can provide a variety of services including:
+
+- Brush and Spray Finishing
+- Varnishing
+- Paint Repairs
+- High Gloss Polishing
+- Interior and Exterior Touch up
+- Osmo White Finishing
+
+## Attention to detail
+
+We pride ourselves on his impeccable attention to detail and his commitment to maintaining a clean and professional working environment.
+
+## Get in touch
+
+If you need advice or a no obligation quote please get in touch!
