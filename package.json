@@ -1,11 +1,11 @@
 {
-  "name": "yellowcake",
-  "HomePage": "https://yellowcake.netlify.com/",
-  "description": "An opinionated starter project for creating lightning-fast websites with Gatsby v2 and Netlify CMS v2",
+  "name": "pyf",
+  "HomePage": "https://pinnacleyachtfinsihing.com/",
+  "description": "A marketing site for Pinnacle Yacht Finishing, nautical finishing to the highest standards",
   "version": "2.0.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/thriveweb/yellowcake"
+    "url": "https://github.com/jaybobaker/pyf"
   },
   "dependencies": {
     "@reach/router": "^1.2.1",

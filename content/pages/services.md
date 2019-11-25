@@ -1,9 +1,9 @@
 ---
-template: ComponentsPage
-slug: components
-title: Components Page
+template: ServicesPage
+slug: services
+title: Our Services
 featuredImage: 'https://ucarecdn.com/df0dc650-6938-412f-aefb-2019d2349e13/'
-subtitle: This is the components page subtitle.
+subtitle: This is the services page subtitle.
 section1: >-
   ## This is a container component
 
@@ -47,6 +47,6 @@ gallery:
     image: 'https://ucarecdn.com/83485d70-1552-4c97-b237-22330fb56a1e/'
     title: Yellow Ice Cream
 meta:
-  description: This is a meta description.
-  title: Components Page
+  description: A selection of some the services we offer
+  title: Our Services
 ---
