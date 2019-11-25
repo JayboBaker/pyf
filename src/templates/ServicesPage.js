@@ -21,7 +21,7 @@ export const ServicesPageTemplate = ({
   videoTitle,
   accordion,
   body,
-  gallery
+  gallery,
 }) => (
   <main>
     <PageHeader
