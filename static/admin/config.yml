@@ -202,7 +202,7 @@ collections: # A list of collections the CMS should be able to edit
               label: Template,
               name: template,
               widget: hidden,
-              default: HomePage,
+              default: UnderConstruction,
             }
           - { label: Slug, name: slug, widget: hidden, default: '' }
           - { label: Title, name: title, widget: string }

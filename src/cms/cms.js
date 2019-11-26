@@ -2,12 +2,13 @@ import React from 'react'
 import CMS from 'netlify-cms-app'
 import './cms-utils'
 
-import { underConstruction as HomePageTemplate } from '../templates/HomePage'
+import { underConstruction as UnderConstruction } from '../templates/UnderConstruction'
 import { ComponentsPageTemplate } from '../templates/ComponentsPage'
 import { ContactPageTemplate } from '../templates/ContactPage'
 import { DefaultPageTemplate } from '../templates/DefaultPage'
 import { BlogIndexTemplate } from '../templates/BlogIndex'
 import { SinglePostTemplate } from '../templates/SinglePost'
+// import { HomePageTemplate } from '../templates/HomePage'
 
 if (
   window.location.hostname === 'localhost' &&
@@ -21,8 +22,11 @@ if (
 }
 
 CMS.registerPreviewTemplate('home-page', ({ entry }) => (
-  <HomePageTemplate {...entry.toJS().data} />
+  <UnderConstruction {...entry.toJS().data} />
 ))
+// CMS.registerPreviewTemplate('about-page', ({ entry }) => (
+//   < HomePageTemplate {...entry.toJS().data} />
+// ))
 CMS.registerPreviewTemplate('components-page', ({ entry }) => (
   <ComponentsPageTemplate {...entry.toJS().data} />
 ))
