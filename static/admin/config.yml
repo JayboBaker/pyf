@@ -241,9 +241,9 @@ collections: # A list of collections the CMS should be able to edit
           - { label: Subtitle, name: subtitle, widget: markdown }
           - { label: Featured Image, name: featuredImage, widget: image }
 
-          - { label: Body, name: body, widget: markdown }
-          - { label: Section 1, name: section1, widget: markdown }
-          - { label: Section 2, name: section2, widget: markdown }
+          - { label: Body, name: body, widget: markdown, required: false }
+          - { label: Section 1, name: section1, widget: markdown, required: false }
+          - { label: Section 2, name: section2, widget: markdown, required: false }
 
           - label: 'Gallery'
             name: 'gallery'
@@ -252,9 +252,9 @@ collections: # A list of collections the CMS should be able to edit
               - { name: image, label: Image, widget: image }
               - { name: alt, label: Alt, widget: string }
               - { name: title, label: Title, widget: string, required: false }
-          - { name: video, label: video, widget: file }
-          - { name: videoPoster, label: videoPoster, widget: image }
-          - { label: videoTitle, name: videoTitle, widget: string }
+          - { name: video, label: video, widget: file, required: false }
+          - { name: videoPoster, label: videoPoster, widget: image, required: false }
+          - { label: videoTitle, name: videoTitle, widget: string, required: false }
 
           - label: 'accordion'
             name: 'accordion'
