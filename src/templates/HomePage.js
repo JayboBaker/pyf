@@ -8,6 +8,14 @@ import Gallery from '../components/Gallery'
 import Layout from '../components/Layout.js'
 import PageHeader from '../components/PageHeader'
 
+
+const renderGallery = (gallery) =>
+  <section className="section">
+    <div className="container">
+      <h2>Our gallery component</h2>
+      <Gallery images={gallery} />
+    </div>
+  </section>
 // Export Template for use in CMS preview
 export const HomePageTemplate = ({
   accordion,
@@ -36,36 +44,39 @@ export const HomePageTemplate = ({
       </div>
     </section>
 
-    <section className="BackgroundVideo-section section">
-      <BackgroundVideo poster={videoPoster} videoTitle={videoTitle}>
-        {video && <source src={video} type="video/mp4" />}
-      </BackgroundVideo>
-    </section>
+    {video &&
+      <section className="BackgroundVideo-section section">
+        <BackgroundVideo poster={videoPoster} videoTitle={videoTitle}>
+          {video && <source src={video} type="video/mp4" />}
+        </BackgroundVideo>
+      </section>
+    }
 
-    <section className="section">
+    {section1 &&
+      <section className="section">
       <div className="container">
         <Content source={section1} />
       </div>
     </section>
+    }
 
-    <section className="section">
-      <div className="container">
-        <h2>Our gallery component</h2>
-        <Gallery images={gallery} />
-      </div>
-    </section>
+    {!!gallery && !!gallery.length && renderGallery(gallery)}
 
-    <section className="section">
-      <div className="container">
-        <Content source={section2} />
-      </div>
-    </section>
+    {section2 &&
+      <section className="section">
+        <div className="container">
+          <Content source={section2} />
+        </div>
+      </section>
+    }
 
-    <section className="section">
-      <div className="container">
-        <Accordion items={accordion} />
-      </div>
-    </section>
+    { accordion &&
+      <section className="section">
+        <div className="container">
+          <Accordion items={accordion} />
+        </div>
+      </section>
+    }
 
   </main>
 )
