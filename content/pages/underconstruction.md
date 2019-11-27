@@ -1,6 +1,6 @@
 ---
-template: HomePage
-slug: 'about'
+template: UnderConstruction
+slug: ''
 title: Professional Nautical Finishing
 featuredImage: 'https://ucarecdn.com/159203d3-881d-4218-baa1-ca4427b48d0d/'
 subtitle: ' Welcome to the home of top quality yacht finishing in Palma De Mallorca'

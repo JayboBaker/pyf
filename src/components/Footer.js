@@ -4,9 +4,10 @@ import './Footer.css'
 
 export default () => (
   <div>
+    <br />
     <h2 className="taCenter">
       Follow us{' '}
-      <a href="https://instagram.com/thrivegoldcoast/">@thrivegoldcoast</a>
+      <a href="https://instagram.com/pinnacleyachtfinishing/">@pinnacleyachtfinishing</a>
     </h2>
     <br />
     <InstagramFeed count="8" />

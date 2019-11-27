@@ -3,17 +3,19 @@ backend:
   name: git-gateway
   branch: master # Branch to update (optional; defaults to master)
 
-# display_url: https://gatsbro.netlify.com # This url will display in the top-right of the CMS
+# display_url: https://gatsbro.netlify.com # This url will display in the top-right of the CM
+public_folder: /img
+media_folder: static/img
 media_library:
   name: uploadcare
   config:
     publicKey: 16bbb46808c01b295125
-    multiple: false
-    tabs: 'file camera url facebook gdrive'
-    effects: 'crop,rotate,enhance,grayscale'
-    imageShrink: '2000x2000'
-    previewStep: true
-    clearable: true
+    # multiple: false
+    # tabs: 'file camera url facebook gdrive'
+    # effects: 'crop,rotate,enhance,grayscale'
+    # imageShrink: '2000x2000'
+    # previewStep: true
+    # clearable: true
 
 collections: # A list of collections the CMS should be able to edit
   - name: 'pages'
@@ -108,10 +110,45 @@ collections: # A list of collections the CMS should be able to edit
               widget: hidden,
               default: BlogIndex,
             }
+          - label: 'Meta'
+            required: false
+            name: 'meta'
+            widget: 'object'
+            fields:
+              - { label: Title, name: title, widget: string, required: false }
+              - {
+                  label: Description,
+                  name: description,
+                  widget: text,
+                  required: false,
+                }
+              - {
+                  label: Canonical Link,
+                  name: canonicalLink,
+                  widget: string,
+                  required: false,
+                }
+              - {
+                  label: Noindex,
+                  name: noindex,
+                  widget: boolean,
+                  required: false,
+                }
           - { label: Slug, name: slug, widget: hidden, default: 'blog' }
           - { label: Title, name: title, widget: string }
-          - { label: Featured Image, name: featuredImage, widget: image }
           - { label: Subtitle, name: subtitle, widget: markdown }
+          - { label: Featured Image, name: featuredImage, widget: image }
+
+      - file: 'content/pages/services.md'
+        label: 'Services Page'
+        name: 'services-page'
+        fields:
+          - {
+              label: Template,
+              name: template,
+              widget: hidden,
+              default: ServicesPage,
+            }
           - label: 'Meta'
             required: false
             name: 'meta'
@@ -137,31 +174,25 @@ collections: # A list of collections the CMS should be able to edit
                   required: false,
                 }
 
-      - file: 'content/pages/components.md'
-        label: 'Components Page'
-        name: 'components-page'
-        fields:
-          - {
-              label: Template,
-              name: template,
-              widget: hidden,
-              default: ComponentsPage,
-            }
-          - { label: Slug, name: slug, widget: hidden, default: 'components' }
+          - { label: Slug, name: slug, widget: hidden, default: 'services' }
           - { label: Title, name: title, widget: string }
-          - { label: Featured Images, name: featuredImage, widget: image }
           - { label: Subtitle, name: subtitle, widget: markdown }
+          - { label: Featured Images, name: featuredImage, widget: image }
+
           - { label: Section 1, name: section1, widget: markdown }
           - { label: Section 2, name: section2, widget: markdown }
+
           - { name: video, label: video, widget: file }
           - { name: videoPoster, label: videoPoster, widget: image }
           - { label: videoTitle, name: videoTitle, widget: string }
+
           - label: 'accordion'
             name: 'accordion'
             widget: 'list'
             fields:
               - { name: title, label: title, widget: string, default: '' }
               - { name: description, label: description, widget: string }
+
           - label: 'Gallery'
             name: 'gallery'
             widget: 'list'
@@ -169,6 +200,17 @@ collections: # A list of collections the CMS should be able to edit
               - { name: image, label: Image, widget: image }
               - { name: alt, label: Alt, widget: string }
               - { name: title, label: Title, widget: string, required: false }
+
+      - file: 'content/pages/underconstruction.md'
+        label: 'Contruction Page'
+        name: 'construction-page'
+        fields:
+          - {
+              label: Template,
+              name: template,
+              widget: hidden,
+              default: UnderConstruction,
+            }
           - label: 'Meta'
             required: false
             name: 'meta'
@@ -193,6 +235,33 @@ collections: # A list of collections the CMS should be able to edit
                   widget: boolean,
                   required: false,
                 }
+
+          - { label: Slug, name: slug, widget: hidden, default: '' }
+          - { label: Title, name: title, widget: string }
+          - { label: Subtitle, name: subtitle, widget: markdown }
+          - { label: Featured Image, name: featuredImage, widget: image }
+
+          - { label: Body, name: body, widget: markdown, required: false }
+          - { label: Section 1, name: section1, widget: markdown, required: false }
+          - { label: Section 2, name: section2, widget: markdown, required: false }
+
+          - label: 'Gallery'
+            name: 'gallery'
+            widget: 'list'
+            fields:
+              - { name: image, label: Image, widget: image }
+              - { name: alt, label: Alt, widget: string }
+              - { name: title, label: Title, widget: string, required: false }
+          - { name: video, label: video, widget: file, required: false }
+          - { name: videoPoster, label: videoPoster, widget: image, required: false }
+          - { label: videoTitle, name: videoTitle, widget: string, required: false }
+
+          - label: 'accordion'
+            name: 'accordion'
+            widget: 'list'
+            fields:
+              - { name: title, label: title, widget: string, default: '' }
+              - { name: description, label: description, widget: string }
 
       - file: 'content/pages/home.md'
         label: 'Home Page'
@@ -202,20 +271,8 @@ collections: # A list of collections the CMS should be able to edit
               label: Template,
               name: template,
               widget: hidden,
-              default: UnderConstruction,
+              default: HomePage,
             }
-          - { label: Slug, name: slug, widget: hidden, default: '' }
-          - { label: Title, name: title, widget: string }
-          - { label: Featured Image, name: featuredImage, widget: image }
-          - { label: Subtitle, name: subtitle, widget: markdown }
-          - { label: Body, name: body, widget: markdown }
-          - label: 'Accordion'
-            name: 'accordion'
-            widget: 'list'
-            required: false
-            fields:
-              - { label: 'Title', name: 'title', widget: 'string' }
-              - { label: Content, name: content, widget: text }
           - label: 'Meta'
             required: false
             name: 'meta'
@@ -240,6 +297,33 @@ collections: # A list of collections the CMS should be able to edit
                   widget: boolean,
                   required: false,
                 }
+
+          - { label: Slug, name: slug, widget: hidden, default: 'about' }
+          - { label: Title, name: title, widget: string }
+          - { label: Subtitle, name: subtitle, widget: markdown }
+          - { label: Featured Image, name: featuredImage, widget: image }
+
+          - { label: Body, name: body, widget: markdown, required: false }
+          - { label: Section 1, name: section1, widget: markdown, required: false }
+          - { label: Section 2, name: section2, widget: markdown, required: false }
+
+          - label: 'Gallery'
+            name: 'gallery'
+            widget: 'list'
+            fields:
+              - { name: image, label: Image, widget: image }
+              - { name: alt, label: Alt, widget: string }
+              - { name: title, label: Title, widget: string, required: false }
+          - { name: video, label: video, widget: file, required: false }
+          - { name: videoPoster, label: videoPoster, widget: image, required: false }
+          - { label: videoTitle, name: videoTitle, widget: string, required: false }
+
+          - label: 'accordion'
+            name: 'accordion'
+            widget: 'list'
+            fields:
+              - { name: title, label: title, widget: string, default: '' }
+              - { name: description, label: description, widget: string }
 
   - name: infoPages
     label: Info Page

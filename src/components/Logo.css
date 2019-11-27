@@ -3,8 +3,22 @@
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  height: 4rem;
-  width: 4rem;
+  height: 8rem;
+  width: 8rem;
   align-items: center;
   justify-content: center;
+}
+
+@media screen and (min-width: 500px) {
+  .Logo {
+    height: 15rem;
+    width: 15rem;
+  }
+}
+
+@media screen and (min-width: 750px) {
+  .Logo {
+    height: 20rem;
+    width: 20rem;
+  }
 }

@@ -1,14 +1,18 @@
 import React from 'react'
 import CMS from 'netlify-cms-app'
+import uploadcare from 'netlify-cms-media-library-uploadcare'
+
 import './cms-utils'
 
 import { underConstruction as UnderConstruction } from '../templates/UnderConstruction'
-import { ComponentsPageTemplate } from '../templates/ComponentsPage'
+import { HomePageTemplate } from '../templates/HomePage'
+import { ServicesPageTemplate } from '../templates/ServicesPage'
 import { ContactPageTemplate } from '../templates/ContactPage'
 import { DefaultPageTemplate } from '../templates/DefaultPage'
 import { BlogIndexTemplate } from '../templates/BlogIndex'
 import { SinglePostTemplate } from '../templates/SinglePost'
-// import { HomePageTemplate } from '../templates/HomePage'
+
+CMS.init()
 
 if (
   window.location.hostname === 'localhost' &&
@@ -20,15 +24,16 @@ if (
 } else {
   CMS.registerPreviewStyle('/styles.css')
 }
+CMS.registerMediaLibrary('uploadcare', uploadcare)
 
-CMS.registerPreviewTemplate('home-page', ({ entry }) => (
+CMS.registerPreviewTemplate('construction-page', ({ entry }) => (
   <UnderConstruction {...entry.toJS().data} />
 ))
-// CMS.registerPreviewTemplate('about-page', ({ entry }) => (
-//   < HomePageTemplate {...entry.toJS().data} />
-// ))
-CMS.registerPreviewTemplate('components-page', ({ entry }) => (
-  <ComponentsPageTemplate {...entry.toJS().data} />
+CMS.registerPreviewTemplate('about-page', ({ entry }) => (
+  <HomePageTemplate {...entry.toJS().data} />
+))
+CMS.registerPreviewTemplate('services-page', ({ entry }) => (
+  <ServicesPageTemplate {...entry.toJS().data} />
 ))
 CMS.registerPreviewTemplate('contact-page', ({ entry }) => (
   <ContactPageTemplate {...entry.toJS().data} />

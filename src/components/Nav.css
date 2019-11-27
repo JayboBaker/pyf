@@ -10,7 +10,21 @@
 .Nav--Container {
   display: flex;
   align-items: center;
-  height: 6rem;
+  height: 8rem;
+}
+
+@media screen and (min-width: 500px) {
+  .Nav--Container {
+    height: 15rem;
+    width: 15rem;
+  }
+}
+
+@media screen and (min-width: 750px) {
+  .Nav--Container {
+    height: 20rem;
+    width: 20rem;
+  }
 }
 
 .Nav--Links {
