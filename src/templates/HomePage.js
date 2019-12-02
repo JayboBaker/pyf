@@ -52,22 +52,15 @@ export const HomePageTemplate = ({
       </section>
     }
 
+    {!!gallery && !!gallery.length && renderGallery(gallery)}
+
+
     {section1 &&
       <section className="section">
       <div className="container">
         <Content source={section1} />
       </div>
     </section>
-    }
-
-    {!!gallery && !!gallery.length && renderGallery(gallery)}
-
-    {section2 &&
-      <section className="section">
-        <div className="container">
-          <Content source={section2} />
-        </div>
-      </section>
     }
 
     { accordion &&
@@ -77,6 +70,16 @@ export const HomePageTemplate = ({
         </div>
       </section>
     }
+
+    {section2 &&
+      <section className="section">
+        <div className="container">
+          <Content source={section2} />
+        </div>
+      </section>
+    }
+
+
 
   </main>
 )
