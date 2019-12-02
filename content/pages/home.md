@@ -11,13 +11,6 @@ section1: |-
   ## Some of our services
 
   Pinnacle can provide a variety of services including:
-
-  * Brush and Spray Finishing
-  * Varnishing
-  * Paint Repairs
-  * High Gloss Polishing
-  * Interior and Exterior Touch up
-  * Osmo White Finishing
 section2: >-
   ## Attention to detail
 
@@ -45,6 +38,14 @@ accordion:
     title: Brush and Spray Finishing
   - description: A description of this
     title: Varnishing
+  - description: The description
+    title: Paint Repairs
+  - description: The description
+    title: High Gloss Polishing
+  - description: The description
+    title: Interior and Exterior Touch up
+  - description: The description
+    title: Osmo White Finishing
 ---
 # We complete our work to highest standards
 
