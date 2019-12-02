@@ -3,7 +3,7 @@ backend:
   name: git-gateway
   branch: master # Branch to update (optional; defaults to master)
 
-# display_url: https://gatsbro.netlify.com # This url will display in the top-right of the CM
+display_url: https://pinnacleyachtfinshing.com # This url will display in the top-right of the CM
 public_folder: /img
 media_folder: static/img
 media_library:
@@ -12,10 +12,10 @@ media_library:
     publicKey: 16bbb46808c01b295125
     # multiple: false
     # tabs: 'file camera url facebook gdrive'
-    # effects: 'crop,rotate,enhance,grayscale'
-    # imageShrink: '2000x2000'
-    # previewStep: true
-    # clearable: true
+    effects: 'crop,rotate,enhance,grayscale'
+    imageShrink: '2000x2000'
+    previewStep: true
+    clearable: true
 
 collections: # A list of collections the CMS should be able to edit
   - name: 'pages'
@@ -182,9 +182,9 @@ collections: # A list of collections the CMS should be able to edit
           - { label: Section 1, name: section1, widget: markdown }
           - { label: Section 2, name: section2, widget: markdown }
 
-          - { name: video, label: video, widget: file }
-          - { name: videoPoster, label: videoPoster, widget: image }
-          - { label: videoTitle, name: videoTitle, widget: string }
+          # - { name: video, label: video, widget: file }
+          # - { name: videoPoster, label: videoPoster, widget: image }
+          # - { label: videoTitle, name: videoTitle, widget: string }
 
           - label: 'accordion'
             name: 'accordion'
@@ -252,9 +252,9 @@ collections: # A list of collections the CMS should be able to edit
               - { name: image, label: Image, widget: image }
               - { name: alt, label: Alt, widget: string }
               - { name: title, label: Title, widget: string, required: false }
-          - { name: video, label: video, widget: file, required: false }
-          - { name: videoPoster, label: videoPoster, widget: image, required: false }
-          - { label: videoTitle, name: videoTitle, widget: string, required: false }
+          # - { name: video, label: video, widget: file, required: false }
+          # - { name: videoPoster, label: videoPoster, widget: image, required: false }
+          # - { label: videoTitle, name: videoTitle, widget: string, required: false }
 
           - label: 'accordion'
             name: 'accordion'
