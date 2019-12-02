@@ -6,7 +6,7 @@ meta:
 slug: ''
 title: Professional Nautical Finishing
 subtitle: ' Welcome to the home of top quality yacht finishing in Palma De Mallorca'
-featuredImage: 'https://ucarecdn.com/159203d3-881d-4218-baa1-ca4427b48d0d/'
+featuredImage: /img/71279821_407743153259214_4441213775697149952_o.jpg
 section1: |-
   ## Some of our services
 
