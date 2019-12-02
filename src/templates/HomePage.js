@@ -16,6 +16,8 @@ const renderGallery = (gallery) =>
       <Gallery images={gallery} />
     </div>
   </section>
+
+
 // Export Template for use in CMS preview
 export const HomePageTemplate = ({
   accordion,
@@ -60,15 +62,11 @@ export const HomePageTemplate = ({
       <div className="container">
         <Content source={section1} />
       </div>
+      <div className="container">
+        <br />
+        {accordion && <Accordion items={accordion} />}
+      </div>
     </section>
-    }
-
-    { accordion &&
-      <section className="section">
-        <div className="container">
-          <Accordion items={accordion} />
-        </div>
-      </section>
     }
 
     {section2 &&
