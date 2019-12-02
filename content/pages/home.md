@@ -33,12 +33,16 @@ section2: >-
 gallery:
   - alt: Yacht decking
     image: /img/yacht1.jpg
+    title: 'Clean '
   - alt: Rear of yacht
     image: /img/yacht3.jpg
+    title: Steps
   - alt: Side view of super yacht
     image: /img/yacht4.jpg
+    title: Super yacht
   - alt: Arial shot of yacht at sea
     image: /img/yacht2.jpg
+    title: Full boat
 accordion:
   - description: A description of this
     title: Brush and Spray Finishing
