@@ -7,7 +7,7 @@ import Content from '../components/Content'
 import Layout from '../components/Layout'
 import './SinglePost.css'
 
-export const SinglePostTemplateC = ({
+export const SinglePostTemplate = ({
   title,
   date,
   body,
@@ -88,14 +88,14 @@ export const SinglePostTemplateC = ({
 )
 
 // Export Default SinglePost for front-end
-const SinglePostC = ({ data: { post, allPosts } }) => {
+const SinglePost = ({ data: { post, allPosts } }) => {
   const thisEdge = allPosts.edges.find(edge => edge.node.id === post.id)
   return (
     <Layout
       meta={post.frontmatter.meta || false}
       title={post.frontmatter.title || false}
     >
-      <SinglePostTemplateC
+      <SinglePostTemplate
         {...post}
         {...post.frontmatter}
         body={post.html}
@@ -106,14 +106,14 @@ const SinglePostC = ({ data: { post, allPosts } }) => {
   )
 }
 
-export default SinglePostC
+export default SinglePost
 
 export const pageQuery = graphql`
   ## Query for SinglePost data
   ## Use GraphiQL interface (http://localhost:8000/___graphql)
   ## $id is processed via gatsby-node.js
   ## query name must be unique to this file
-  query SinglePostC($id: String!) {
+  query SinglePost($id: String!) {
     post: markdownRemark(id: { eq: $id }) {
       ...Meta
       html

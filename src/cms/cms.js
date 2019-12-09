@@ -53,5 +53,7 @@ CMS.registerPreviewTemplate('posts', ({ entry }) => {
       return <SinglePostTemplateC {...entry.toJS().data} />
     case 'SinglePostD':
       return <SinglePostTemplateD {...entry.toJS().data} />
+    default:
+      return <SinglePostTemplateA {...entry.toJS().data} />
   }
 })
