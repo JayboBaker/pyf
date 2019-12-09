@@ -7,7 +7,7 @@ import Content from '../components/Content'
 import Layout from '../components/Layout'
 import './SinglePost.css'
 
-export const SinglePostTemplate = ({
+export const SinglePostTemplateA = ({
   title,
   date,
   body,
@@ -69,7 +69,7 @@ export const SinglePostTemplate = ({
                 className="SinglePost--Pagination--Link prev"
                 to={prevPostURL}
               >
-                Previous Post
+                Previous Job
               </Link>
             )}
             {nextPostURL && (
@@ -77,7 +77,7 @@ export const SinglePostTemplate = ({
                 className="SinglePost--Pagination--Link next"
                 to={nextPostURL}
               >
-                Next Post
+                Next Job
               </Link>
             )}
           </div>
@@ -88,14 +88,14 @@ export const SinglePostTemplate = ({
 )
 
 // Export Default SinglePost for front-end
-const SinglePost = ({ data: { post, allPosts } }) => {
+const SinglePostA = ({ data: { post, allPosts } }) => {
   const thisEdge = allPosts.edges.find(edge => edge.node.id === post.id)
   return (
     <Layout
       meta={post.frontmatter.meta || false}
       title={post.frontmatter.title || false}
     >
-      <SinglePostTemplate
+      <SinglePostTemplateA
         {...post}
         {...post.frontmatter}
         body={post.html}
@@ -106,7 +106,7 @@ const SinglePost = ({ data: { post, allPosts } }) => {
   )
 }
 
-export default SinglePost
+export default SinglePostA
 
 export const pageQuery = graphql`
   ## Query for SinglePost data

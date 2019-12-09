@@ -283,6 +283,7 @@ collections: # A list of collections the CMS should be able to edit
       - { label: Title, name: title, widget: string }
       - { label: Featured Image, name: featuredImage, widget: image }
       - { label: Body, name: body, widget: markdown }
+
       - label: 'Meta'
         required: false
         name: 'meta'
@@ -311,7 +312,31 @@ collections: # A list of collections the CMS should be able to edit
     slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
     create: true # Allow users to create new documents in this collection
     fields: # The fields each document in this collection have
-      - { label: Template, name: template, widget: hidden, default: SinglePost }
+      - label: 'Meta'
+        required: false
+        name: 'meta'
+        widget: 'object'
+        fields:
+          - { label: Title, name: title, widget: string, required: false }
+          - {
+              label: Description,
+              name: description,
+              widget: text,
+              required: false,
+            }
+          - {
+              label: Canonical Link,
+              name: canonicalLink,
+              widget: string,
+              required: false,
+            }
+          - { label: Noindex, name: noindex, widget: boolean, required: false }
+      - {
+          label: Template,
+          name: template,
+          widget: 'select',
+          options: ['SinglePostA', 'SinglePostB', 'SinglePostC', 'SinglePostD']
+        }
       - { label: Title, name: title, widget: string }
       - label: 'Status'
         name: 'status'
@@ -338,25 +363,14 @@ collections: # A list of collections the CMS should be able to edit
             collection: 'postCategories'
             searchFields: ['title']
             valueField: 'title'
-      - label: 'Meta'
-        required: false
-        name: 'meta'
-        widget: 'object'
+      - label: 'Gallery'
+        name: 'gallery'
+        widget: 'list'
         fields:
-          - { label: Title, name: title, widget: string, required: false }
-          - {
-              label: Description,
-              name: description,
-              widget: text,
-              required: false,
-            }
-          - {
-              label: Canonical Link,
-              name: canonicalLink,
-              widget: string,
-              required: false,
-            }
-          - { label: Noindex, name: noindex, widget: boolean, required: false }
+          - { name: image, label: Image, widget: image }
+          - { name: alt, label: Alt, widget: string }
+          - { name: title, label: Title, widget: string, required: false }
+
 
   - name: postCategories
     label: Post Category
