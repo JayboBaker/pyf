@@ -69,7 +69,7 @@ export class Navigation extends Component {
                 Our work
               </span>
               <div className="Nav--GroupLinks">
-                <NavLink to="/blog/" className="Nav--GroupLink">
+                <NavLink to="/work/" className="Nav--GroupLink">
                   All Work
                 </NavLink>
                 {subNav.posts.map((link, index) => (
