@@ -1,54 +1,15 @@
 import React from 'react'
-import { graphql } from 'gatsby'
 
-import PageHeader from '../components/PageHeader'
-import Content from '../components/Content'
-import Layout from '../components/Layout'
-import SVGIcon from '../components/SVGIcon'
+import Logo from '../../static/images/logo.svg'
 
-// Export Template for use in CMS preview
-export const DefaultPageTemplate = ({
-  title,
-  subtitle,
-  featuredImage,
-  body,
-}) => (
-  <main className="DefaultPage">
-    <PageHeader
-      title={title}
-      subtitle={subtitle}
-      backgroundImage={featuredImage}
-    />
-
-    <section className="section">
-      <div className="container">
-        <Content source={body} />
-        <SVGIcon src="/images/calendar.svg" />
-      </div>
-    </section>
-  </main>
+export const underConstruction = () => (
+  <section className="section">
+    <div className="container" style={{ textAlign: 'center' }}>
+      <img style={{ maxWidth: '100%' }} src={Logo} />
+      <h1>Currently under construction</h1>
+      <p>Check back later!</p>
+    </div>
+  </section>
 )
 
-const DefaultPage = ({ data: { page } }) => (
-  <Layout
-    meta={page.frontmatter.meta || false}
-    title={page.frontmatter.title || false}
-  >
-    <DefaultPageTemplate {...page.frontmatter} body={page.html} />
-  </Layout>
-)
-export default DefaultPage
-
-export const pageQuery = graphql`
-  query DefaultPage($id: String!) {
-    page: markdownRemark(id: { eq: $id }) {
-      ...Meta
-      html
-      frontmatter {
-        title
-        subtitle
-        featuredImage
-      }
-    }
-  }
-`
+export default underConstruction
