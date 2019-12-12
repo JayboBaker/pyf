@@ -7,22 +7,20 @@ slug: ''
 title: Professional Nautical Finishing
 subtitle: ' Welcome to the home of top quality yacht finishing in Palma De Mallorca'
 featuredImage: /img/71279821_407743153259214_4441213775697149952_o.jpg
-section1: |-
+section1: >-
   ## Some of our services
 
-  Pinnacle can provide a variety of services including:
+
+  From Minor Touch up repairs to major refit projects our skilled team at
+  Pinnacle Yacht Finishing are always ready to go the extra mile to ensure your
+  work is of the highest quality and finished on time.
 section2: >-
-  ## Attention to detail
+  ## Rely on our expertise
 
 
-  We pride ourselves on his impeccable attention to detail and his commitment to
-  maintaining a clean and professional working environment.
-
-
-  ## Get in touch
-
-
-  If you need advice or a no obligation quote please get in touch!
+  We will help guide you through the correct choices of products for each
+  individual area of your yacht, using the correct technique whether it be
+  brush, roll and tip or a Spray finish to ensure an outstanding result.
 gallery:
   - alt: Yacht decking
     image: /img/yacht1.jpg
@@ -34,30 +32,37 @@ gallery:
     image: /img/yacht4.jpg
     title: Super yacht
 accordion:
-  - description: A description of this
-    title: Brush and Spray Finishing
-  - description: A description of this
-    title: Varnishing
-  - description: The description
-    title: Paint Repairs
-  - description: The description
-    title: High Gloss Polishing
-  - description: The description
-    title: Interior and Exterior Touch up
-  - description: The description
-    title: Osmo White Finishing
+  - description: >-
+      We use only the best and most advanced products in the industry for
+      durability and high quality and perfect finish. With our extensive product
+      knowledge our team have the skills to tint woods to match any colour or
+      sheen for interior work we often use a spray finish for the very best
+      quality. 
+    title: Interior
+  - description: >-
+      We are very proud of our exterior finishes and are experts in all areas
+      whether we are stripping back to bare wood and restoring the wood to its
+      former beauty or just giving a fresh look by enhancing the finish with
+      small spot repairs and extra coats of varnish, our team are here to make
+      that happen.
+    title: Exterior
+  - description: >-
+      Winter Maintenance is essential and reduces your long-term costs as well
+      as keeping the yacht looking her best. We are happy to advise how best you
+      can ensure your yacht looks amazing all year round because prevention is
+      far more cost effective than repeated repair.
+    title: Winter Maintenance
+  - description: >-
+      Pinnacle Yacht Finishing know that sometimes there isn’t the time in the
+      schedule, and you may need a quick fix, that’s why we can provide on board
+      touch up repairs executed to an extremely high standard. Weather these be
+      scratches, dings or de lamination we can fix the damage using high quality
+      Konig Waxes, pens and resins to make sure we get the best match possible.
+    title: Touch Up Repairs
 ---
 # We complete our work to highest standards
 
-Pinnacle can offer all services relating to Varnishing, High Gloss Polishing, Sikaflex, Spraying, Brushing and Touch Ups, Onboard and in Luxury Interiors
-
-## You can rely on our experience
-
-Having worked within the industry for over 10 years, and having gained valuable knowledge and experience, James decided start Pinnacle Yacht Finishing in 2017.
-
-Over the past 10 years we've worked for some of the most established companies on the Island of Mallorca. Having been responsible for many of their big projects both on the interior and exterior. We're is a recognisable firm along the docks and shipyards of Mallorca.
-
-All of our finshers are fully qualified in many of the highly skilled aspects of yacht finishing. We are knowledgable about all of the most up to date techniques and products.
+Pinnacle Yacht finishing have over 12 years’ experience of working on high end motor and classic Yachts providing a full service in yacht finishing and re finishing. using the most innovative range of products in the industry ensuring the highest durability, always finished with a meticulous attention to detail.
 
 ## 
 
