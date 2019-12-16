@@ -52,7 +52,8 @@ export class Navigation extends Component {
             <NavLink to="/">About</NavLink>
             <NavLink to="/services/">Services</NavLink>
             <NavLink to="/clients/">Clients</NavLink>
-            <div
+            <NavLink to="/work/">Our work</NavLink>
+            {/* <div
               className={`Nav--Group ${
                 this.state.activeSubNav === 'posts' ? 'active' : ''
               }`}
@@ -83,7 +84,7 @@ export class Navigation extends Component {
                   </NavLink>
                 ))}
               </div>
-            </div>
+            </div> */}
             <NavLink to="/contact/">Contact</NavLink>
           </div>
           <button

@@ -69,13 +69,13 @@ export const BlogIndexTemplate = ({
             backgroundImage={featuredImage}
           />
 
-          {!!postCategories.length && (
+          {/* {!!postCategories.length && (
             <section className="section thin">
               <div className="container">
                 <PostCategoriesNav enableSearch categories={postCategories} />
               </div>
             </section>
-          )}
+          )} */}
 
           {!!posts.length && (
             <section className="section">
