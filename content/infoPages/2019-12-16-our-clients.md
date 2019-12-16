@@ -1,6 +1,6 @@
 ---
 template: DefaultPage
-slug: clients
+slug: clientss
 title: Our Clients
 featuredImage: /img/yacht1.jpg
 meta:
