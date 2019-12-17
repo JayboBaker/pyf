@@ -5,7 +5,7 @@ meta:
   title: Our Services
 slug: services
 title: Our Services
-subtitle: This is the services page subtitle.
+subtitle: We offer a wide range of services and are always happy to provide estimates
 featuredImage: /img/yacht3.jpg
 section1: >-
   ## 
@@ -23,7 +23,7 @@ section1: >-
   match any colour or sheen
 
 
-  for interior work we often use a spray finish for the very best quality. We
+  For interior work we often use a spray finish for the very best quality. We
   quickly and efficiently build onsite spray cabins installing the correct
   extraction units to not only ensure a flawless finish but ensure the health
   and safety of your crew too.
