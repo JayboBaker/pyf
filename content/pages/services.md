@@ -23,7 +23,7 @@ section1: >-
   match any colour or sheen
 
 
-  for interior work we often use a spray finish for the very best quality. We
+  For interior work we often use a spray finish for the very best quality. We
   quickly and efficiently build onsite spray cabins installing the correct
   extraction units to not only ensure a flawless finish but ensure the health
   and safety of your crew too.
