@@ -5,7 +5,7 @@ meta:
   title: Our Services
 slug: services
 title: Our Services
-subtitle: This is the services page subtitle.
+subtitle: We offer a wide range of services and are always happy to provide estimates
 featuredImage: /img/yacht3.jpg
 section1: >-
   ## 
