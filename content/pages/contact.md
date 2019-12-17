@@ -2,7 +2,7 @@
 template: ContactPage
 slug: contact
 title: Get in touch!
-featuredImage: 'https://ucarecdn.com/af70fc8c-29ef-4c40-9063-c8235db7d4c0/'
+featuredImage: /img/aid-beach-safety-buoy-close-up.jpg
 subtitle: Contact us for a no-obligation quote
 address: 'Palma De Mallorca, 07014 Palma, Balearic Islands, Spain'
 phone: +34 666 680 475
