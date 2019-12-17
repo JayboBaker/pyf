@@ -1,32 +1,85 @@
 ---
 template: ServicesPage
+meta:
+  description: A selection of some the services we offer
+  title: Our Services
 slug: services
 title: Our Services
-featuredImage: 'https://ucarecdn.com/df0dc650-6938-412f-aefb-2019d2349e13/'
 subtitle: This is the services page subtitle.
+featuredImage: /img/yacht3.jpg
 section1: >-
-  ## This is a container component
-
-  A sem vel nec sodales mi vivamus senectus sed potenti a parturient nascetur
-  tincidunt nisi pulvinar rhoncus a. Risus imperdiet taciti suspendisse facilisi
-  a per metus cubilia varius a nostra adipiscing amet ultrices quisque ac mi a.
+  ## 
 
 
-  [Dictumst a ultrices mi]() a dignissim ad fermentum eget a nam et a blandit
-  scelerisque. Taciti lorem tempor quam vestibulum dis habitasse vestibulum diam
-  vel est ut proin dis auctor. Suscipit sceler isque orci magna interdum vel
-  bibendum duis netus a consectetur dui magnis ac aliquet sem posuere tincidunt
-  vestibulum.
-section2: |-
-  ## You can use videos, images and text.
+  ## Interior 
 
-  <iframe width="560" height="315"
-  src="https://www.youtube.com/embed/Js00yn142ic" frameborder="0"
-  allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
-video: 'https://ucarecdn.com/e6979298-66d6-4245-b496-6e5a5d507135/'
-videoPoster: 'https://ucarecdn.com/69ba14a8-6481-4671-abb6-0e6f0d9c3e46/'
-videoTitle: Also background videos, with poster image & title overlay.
+  Pinnacle Yacht finishing are specialists in Interior varnish work. We use only
+  the best and most advanced products in the industry for durability and high
+  quality and perfect finish.
+
+
+  With our extensive product knowledge our team have the skills to tint woods to
+  match any colour or sheen
+
+
+  for interior work we often use a spray finish for the very best quality. We
+  quickly and efficiently build onsite spray cabins installing the correct
+  extraction units to not only ensure a flawless finish but ensure the health
+  and safety of your crew too.
+
+
+  ## 
+
+
+  ## Exterior 
+
+
+  We are very proud of our exterior finishes and are experts in all areas
+  whether we are stripping back to bare wood and restoring the wood to its
+  former beauty or just giving a fresh look by enhancing the finish with small
+  spot repairs and extra coats of varnish, our team are here to make that
+  happen. We use the appropriate technique to always give a flawless finish
+  either using a brush or spraying. We also know how important the Sika work is
+  onboard and are happy to replace and or repair around the varnish whenever
+  necessary.
+
+
+  We know how awful sun damage is for varnish and you can be sure that all our
+  products have the highest UV filter
+
+
+  ##
+section2: >-
+  ## Winter Maintenance 
+
+
+  This essential work reduces your long-term costs as well as keeping the yacht
+  looking her best. We are happy to advise how best you can ensure your yacht
+  looks amazing all year round because prevention is far more cost effective
+  than repeated repair. 
+
+
+  ## 
+
+
+  ## 
+
+
+  ## Touch Up Repairs
+
+
+  Pinnacle Yacht Finishing know that sometimes there isn’t the time in the
+  schedule, and you may need a quick fix, that’s why we can provide on board
+  touch up repairs executed to an extremely high standard.
+
+
+  Weather these be scratches, dings or de lamination we can fix the damage using
+  high quality Konig Waxes, pens and resins to make sure we get the best match
+  possible. 
+
+
+  ##
 accordion:
   - description: Taciti lorem tempor quam vestibulum dis habitasse
     title: Taciti lorem
@@ -37,16 +90,14 @@ accordion:
   - description: Taciti lorem tempor quam vestibulum dis habitasse
     title: Taciti lorem
 gallery:
-  - alt: yellow rope image
-    image: 'https://ucarecdn.com/277cdf82-24aa-4d80-8169-bb46f4cd319d/'
-    title: Yellow Rope
-  - alt: umbrellas
-    image: 'https://ucarecdn.com/5da63204-4ff0-4235-aac3-852921d7c632/'
-    title: a bunch of umbrellas
-  - alt: yellow ice cream
-    image: 'https://ucarecdn.com/83485d70-1552-4c97-b237-22330fb56a1e/'
-    title: Yellow Ice Cream
-meta:
-  description: A selection of some the services we offer
-  title: Our Services
+  - alt: 'Yacht at sea '
+    image: /img/yacht2.jpg
+    title: Arial decking shot
+  - alt: Super yacht side on
+    image: /img/yacht4.jpg
+    title: We work on all types of yacht
+  - alt: Yacht finisher preparing the decking
+    image: /img/71279821_407743153259214_4441213775697149952_o.jpg
+    title: One of our highly skilled finishers
 ---
+
