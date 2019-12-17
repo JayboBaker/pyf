@@ -37,7 +37,7 @@ accordion:
       durability and high quality and perfect finish. With our extensive product
       knowledge our team have the skills to tint woods to match any colour or
       sheen for interior work we often use a spray finish for the very best
-      quality. 
+      quality.
     title: Interior
   - description: >-
       We are very proud of our exterior finishes and are experts in all areas
@@ -63,7 +63,3 @@ accordion:
 # We complete our work to highest standards
 
 Pinnacle Yacht finishing have over 12 years’ experience of working on high end motor and classic Yachts providing a full service in yacht finishing and re finishing. using the most innovative range of products in the industry ensuring the highest durability, always finished with a meticulous attention to detail.
-
-## 
-
-##

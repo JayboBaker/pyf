@@ -1,11 +1,14 @@
 ---
 template: DefaultPage
-slug: clientss
+slug: clients
 title: Our Clients
+subtitle: Some of the yachts we've had the pleasure of working on
 featuredImage: /img/yacht1.jpg
 meta:
   description: A selection of our clients to date
   title: View our clients
+
+
 ---
 # We've worked on some of the most prestigeous yachts to dock in Palma Marina.
 

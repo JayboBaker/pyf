@@ -94,9 +94,6 @@ export const pageQuery = graphql`
         featuredImage
         section1
         section2
-        video
-        videoPoster
-        videoTitle
         accordion {
           title
           description
