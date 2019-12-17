@@ -2,7 +2,7 @@
 template: BlogIndex
 slug: work
 title: Our Work
-featuredImage: 'https://ucarecdn.com/b6254577-26bf-4b79-aa9b-f3793e2aebdc/'
+featuredImage: /img/boot-2623425_1280.jpg
 subtitle: We pride ourselves on completing work to a very high standard
 meta:
   description: >-
