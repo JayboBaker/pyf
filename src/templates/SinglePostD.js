@@ -45,7 +45,7 @@ export const SinglePostTemplateD = ({
               <Fragment>
                 {categories.map((cat, index) => (
                   <span
-                    key={cat.category}
+                    key={index}
                     className="SinglePost--Meta--Category"
                   >
                     {cat.category}
