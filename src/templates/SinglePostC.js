@@ -5,15 +5,29 @@ import { ChevronLeft } from 'react-feather'
 
 import Content from '../components/Content'
 import Layout from '../components/Layout'
+
+import Accordion from '../components/Accordion'
+import Gallery from '../components/Gallery'
+
 import './SinglePost.css'
 
+const renderGallery = (gallery) =>
+  <section className="section">
+    <div className="container">
+      <Gallery images={gallery} />
+    </div>
+  </section>
+
 export const SinglePostTemplateC = ({
-  title,
-  date,
+  accordion,
   body,
+  categories = [],
+  gallery,
   nextPostURL,
   prevPostURL,
-  categories = [],
+  section1,
+  section2,
+  title,
 }) => (
   <main>
     <article
@@ -27,18 +41,8 @@ export const SinglePostTemplateC = ({
         </Link>
         <div className="SinglePost--Content relative">
           <div className="SinglePost--Meta">
-            {date && (
-              <time
-                className="SinglePost--Meta--Date"
-                itemProp="dateCreated pubdate datePublished"
-                date={date}
-              >
-                {date}
-              </time>
-            )}
             {categories && (
               <Fragment>
-                <span>|</span>
                 {categories.map((cat, index) => (
                   <span
                     key={cat.category}
@@ -62,6 +66,29 @@ export const SinglePostTemplateC = ({
           <div className="SinglePost--InnerContent">
             <Content source={body} />
           </div>
+
+          {!!gallery && !!gallery.length && renderGallery(gallery)}
+
+
+          {section1 &&
+            <section className="section">
+            <div className="container">
+              <Content source={section1} />
+            </div>
+            <div className="container">
+              <br />
+              {accordion && <Accordion items={accordion} />}
+            </div>
+          </section>
+          }
+
+          {section2 &&
+            <section className="section">
+              <div className="container">
+                <Content source={section2} />
+              </div>
+            </section>
+          }
 
           <div className="SinglePost--Pagination">
             {prevPostURL && (
@@ -116,12 +143,19 @@ export const pageQuery = graphql`
   query SinglePostC($id: String!) {
     post: markdownRemark(id: { eq: $id }) {
       ...Meta
+      ...Gallery
       html
       id
       frontmatter {
         title
         template
         subtitle
+        section1
+        section2
+        accordion {
+          title
+          description
+        }
         date(formatString: "MMMM Do, YYYY")
         categories {
           category
