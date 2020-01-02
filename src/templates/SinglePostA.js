@@ -27,7 +27,7 @@ export const SinglePostTemplateA = ({
         </Link>
         <div className="SinglePost--Content relative">
           <div className="SinglePost--Meta">
-            {date && (
+            {/* {date && (
               <time
                 className="SinglePost--Meta--Date"
                 itemProp="dateCreated pubdate datePublished"
@@ -35,7 +35,7 @@ export const SinglePostTemplateA = ({
               >
                 {date}
               </time>
-            )}
+            )} */}
             {categories && (
               <Fragment>
                 <span>|</span>
