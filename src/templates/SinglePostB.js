@@ -67,27 +67,24 @@ export const SinglePostTemplateB = ({
             <Content source={body} />
           </div>
 
-          {!!gallery && !!gallery.length && renderGallery(gallery)}
-
-
           {section1 &&
-            <section className="section">
             <div className="container">
               <Content source={section1} />
             </div>
+          }
+
+          {!!gallery && !!gallery.length && renderGallery(gallery)}
+
+          {accordion &&
             <div className="container">
-              <br />
               {accordion && <Accordion items={accordion} />}
             </div>
-          </section>
           }
 
           {section2 &&
-            <section className="section">
-              <div className="container">
-                <Content source={section2} />
-              </div>
-            </section>
+            <div className="container">
+              <Content source={section2} />
+            </div>
           }
 
           <div className="SinglePost--Pagination">
