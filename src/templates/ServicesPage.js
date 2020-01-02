@@ -37,8 +37,8 @@ export const ServicesPageTemplate = ({
 
     <section className="section">
       <div className="container">
-        <h2>Our gallery component</h2>
-        <Gallery images={gallery} />
+        <h2>Some examples of our work</h2>
+        {!!gallery && !!gallery.length && <Gallery images={gallery} />}
       </div>
     </section>
 
