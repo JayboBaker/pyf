@@ -67,7 +67,6 @@ export const SinglePostTemplateA = ({
             <Content source={body} />
           </div>
 
-          {!!gallery && !!gallery.length && renderGallery(gallery)}
 
 
           {section1 &&
@@ -81,6 +80,8 @@ export const SinglePostTemplateA = ({
             </div>
           </section>
           }
+
+          {!!gallery && !!gallery.length && renderGallery(gallery)}
 
           {section2 &&
             <section className="section">

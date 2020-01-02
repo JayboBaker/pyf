@@ -67,7 +67,6 @@ export const SinglePostTemplateD = ({
             <Content source={body} />
           </div>
 
-          {!!gallery && !!gallery.length && renderGallery(gallery)}
 
 
           {section1 &&
@@ -89,6 +88,7 @@ export const SinglePostTemplateD = ({
               </div>
             </section>
           }
+          {!!gallery && !!gallery.length && renderGallery(gallery)}
 
           <div className="SinglePost--Pagination">
             {prevPostURL && (

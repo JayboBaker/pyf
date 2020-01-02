@@ -75,8 +75,11 @@ export const SinglePostTemplateC = ({
             <div className="container">
               <Content source={section1} />
             </div>
+          </section>
+          }
+          {accordion &&
+            <section className="section">
             <div className="container">
-              <br />
               {accordion && <Accordion items={accordion} />}
             </div>
           </section>
