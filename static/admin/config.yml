@@ -362,13 +362,23 @@ collections: # A list of collections the CMS should be able to edit
             collection: 'postCategories'
             searchFields: ['title']
             valueField: 'title'
-      - label: 'Gallery'
-        name: 'gallery'
-        widget: 'list'
-        fields:
-          - { name: image, label: Image, widget: image }
-          - { name: alt, label: Alt, widget: string }
-          - { name: title, label: Title, widget: string, required: false }
+          - { label: Section 1, name: section1, widget: markdown, required: false }
+          - { label: Section 2, name: section2, widget: markdown, required: false }
+
+          - label: 'Gallery'
+            name: 'gallery'
+            widget: 'list'
+            fields:
+              - { name: image, label: Image, widget: image }
+              - { name: alt, label: Alt, widget: string }
+              - { name: title, label: Title, widget: string, required: false }
+
+          - label: 'accordion'
+            name: 'accordion'
+            widget: 'list'
+            fields:
+              - { name: title, label: title, widget: string, default: '' }
+              - { name: description, label: description, widget: string }
 
 
   - name: postCategories
