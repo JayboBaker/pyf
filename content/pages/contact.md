@@ -2,7 +2,7 @@
 template: ContactPage
 slug: contact
 title: Get in touch!
-featuredImage: /img/van.jpg
+featuredImage: /img/23969643_1801560363474625_8318565570257616896_n.jpg
 subtitle: Contact us for a no-obligation quote
 address: 'Palma De Mallorca, 07014 Palma, Balearic Islands, Spain'
 phone: 0034 655625511
