@@ -2,10 +2,10 @@
 template: ContactPage
 slug: contact
 title: Get in touch!
-featuredImage: /img/aid-beach-safety-buoy-close-up.jpg
+featuredImage: /img/van.jpg
 subtitle: Contact us for a no-obligation quote
 address: 'Palma De Mallorca, 07014 Palma, Balearic Islands, Spain'
-phone: +34 666 680 475
+phone: 0034 655625511
 email: office.pyf@gmail.com
 locations:
   - lat: '-27.9654732'
