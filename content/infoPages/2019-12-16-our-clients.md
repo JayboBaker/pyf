@@ -1,6 +1,6 @@
 ---
 template: DefaultPage
-slug: clientss
+slug: Clients
 title: Our Clients
 featuredImage: /img/genevieve.jpg
 meta:
