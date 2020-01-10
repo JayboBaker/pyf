@@ -1,6 +1,6 @@
 ---
 template: BlogIndex
 title: Yachts
-featuredImage: /img/yacht1.jpg
+featuredImage: /img/beautifully-varnished-wood-sailboat-1024x764.jpg
 ---
 
