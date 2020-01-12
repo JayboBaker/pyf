@@ -46,12 +46,8 @@ accordion:
       small spot repairs and extra coats of varnish, our team are here to make
       that happen.
     title: Exterior
-  - description: >-
-      Winter Maintenance is essential and reduces your long-term costs as well
-      as keeping the yacht looking her best. We are happy to advise how best you
-      can ensure your yacht looks amazing all year round because prevention is
-      far more cost effective than repeated repair.
-    title: Winter Maintenance
+  - description: ....
+    title: Workshop
   - description: >-
       Pinnacle Yacht Finishing know that sometimes there isn’t the time in the
       schedule, and you may need a quick fix, that’s why we can provide on board
