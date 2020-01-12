@@ -78,15 +78,7 @@ section2: >-
 
 
   ##
-accordion:
-  - description: Taciti lorem tempor quam vestibulum dis habitasse
-    title: Taciti lorem
-  - description: Taciti lorem tempor quam vestibulum dis habitasse
-    title: Taciti lorem
-  - description: Taciti lorem tempor quam vestibulum dis habitasse
-    title: Taciti lorem
-  - description: Taciti lorem tempor quam vestibulum dis habitasse
-    title: Taciti lorem
+accordion: []
 gallery:
   - alt: Carbon Fiber varnish high gloss
     image: /img/carbon-fiber-finsih.jpg
@@ -95,9 +87,9 @@ gallery:
     image: /img/sprayed.jpg
     title: ''
   - alt: Yacht finisher preparing the decking
-    image: /img/71279821_407743153259214_4441213775697149952_o.jpg
-    title: One of our highly skilled finishers
-  - alt: White Wash Varnish
+    image: /img/interior-cabin.jpg
+    title: ''
+  - alt: White Wash Varnish Yacht Finish
     image: /img/white-wash.jpg
 ---
 
