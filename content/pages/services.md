@@ -21,8 +21,8 @@ section1: >-
   quality and perfect finish.
 
 
-  With our extensive product knowledge our team have the skills to tint woods to
-  match any colour or sheen
+  With our extensive product knowledge our team have the skills to tint and
+  whitewash woods to match any colour or sheen.
 
 
   For interior work we often use a spray finish for the very best quality. We
