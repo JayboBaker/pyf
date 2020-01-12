@@ -87,7 +87,7 @@ gallery:
     image: /img/sprayed.jpg
     title: ''
   - alt: Yacht finisher preparing the decking
-    image: /img/interior-cabin.jpg
+    image: /img/beaugest-close-up-of-rail.jpg
     title: ''
   - alt: White Wash Varnish Yacht Finish
     image: /img/white-wash.jpg
