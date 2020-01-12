@@ -5,7 +5,9 @@ meta:
   title: Our Services
 slug: services
 title: Our Services
-subtitle: We offer a wide range of services and are always happy to provide estimates
+subtitle: >-
+  We offer a wide range of services and are always happy to provide a no
+  obligation quote.
 featuredImage: /img/beautifully-varnished-wood-sailboat-1024x764.jpg
 section1: >-
   ## 
