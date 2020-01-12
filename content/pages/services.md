@@ -6,7 +6,7 @@ meta:
 slug: services
 title: Our Services
 subtitle: We offer a wide range of services and are always happy to provide estimates
-featuredImage: /img/yacht3.jpg
+featuredImage: /img/beautifully-varnished-wood-sailboat-1024x764.jpg
 section1: >-
   ## 
 
@@ -51,16 +51,10 @@ section1: >-
 
   ##
 section2: >-
-  ## Winter Maintenance 
+  ## Workshop
 
 
-  This essential work reduces your long-term costs as well as keeping the yacht
-  looking her best. We are happy to advise how best you can ensure your yacht
-  looks amazing all year round because prevention is far more cost effective
-  than repeated repair. 
-
-
-  ## 
+  .....................
 
 
   ## 
@@ -79,6 +73,8 @@ section2: >-
   possible. 
 
 
+
+
   ##
 accordion:
   - description: Taciti lorem tempor quam vestibulum dis habitasse
@@ -90,14 +86,16 @@ accordion:
   - description: Taciti lorem tempor quam vestibulum dis habitasse
     title: Taciti lorem
 gallery:
-  - alt: 'Yacht at sea '
-    image: /img/yacht2.jpg
-    title: Arial decking shot
-  - alt: Super yacht side on
-    image: /img/yacht4.jpg
-    title: We work on all types of yacht
+  - alt: Carbon Fiber varnish high gloss
+    image: /img/carbon-fiber-finsih.jpg
+    title: ''
+  - alt: High Gloss Spray Finish
+    image: /img/sprayed.jpg
+    title: ''
   - alt: Yacht finisher preparing the decking
     image: /img/71279821_407743153259214_4441213775697149952_o.jpg
     title: One of our highly skilled finishers
+  - alt: White Wash Varnish
+    image: /img/white-wash.jpg
 ---
 
