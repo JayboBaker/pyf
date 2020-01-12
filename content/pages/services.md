@@ -80,8 +80,8 @@ section2: >-
   ##
 accordion: []
 gallery:
-  - alt: Carbon Fibre varnish high gloss
-    image: /img/carbon-fiber-finsih.jpg
+  - alt: Matt brush finish Milesi varnish floor
+    image: /img/sea-shutle-wheel-house-floor.jpg
     title: ''
   - alt: High Gloss Spray Finish
     image: /img/sprayed.jpg
