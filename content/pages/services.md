@@ -6,14 +6,14 @@ meta:
 slug: services
 title: Our Services
 subtitle: >-
-  We offer a wide range of services and are always happy to provide a no
-  obligation quote.
+  _We offer a wide range of services and are always happy to provide a no
+  obligation quote._
 featuredImage: /img/beautifully-varnished-wood-sailboat-1024x764.jpg
 section1: >-
   ## 
 
 
-  ## Interior 
+  ## Interior
 
 
   Pinnacle Yacht finishing are specialists in Interior varnish work. We use only
@@ -34,7 +34,7 @@ section1: >-
   ## 
 
 
-  ## Exterior 
+  ## Exterior
 
 
   We are very proud of our exterior finishes and are experts in all areas
@@ -80,7 +80,7 @@ section2: >-
   ##
 accordion: []
 gallery:
-  - alt: Carbon Fiber varnish high gloss
+  - alt: Carbon Fibre varnish high gloss
     image: /img/carbon-fiber-finsih.jpg
     title: ''
   - alt: High Gloss Spray Finish
