@@ -2,7 +2,7 @@
 template: DefaultPage
 slug: Clients
 title: Our Clients
-featuredImage: /img/boot-2623425_1280.jpg
+featuredImage: /img/genevieve.jpg
 meta:
   description: A selection of our clients to date
   title: View our clients
