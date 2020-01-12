@@ -14,13 +14,14 @@ meta:
 * MY Ianya
 * SY Genevieve
 * SY Moonbird
-* SY No timing
+* SY No Timing
 * MY Cyan
 * SY Melek
 * MY Beaugeste
-* SY Seashuttle 
+* SY Sea Shuttle 
 * MY Samakanda
 * SY Atalante
-* SY Rowdey
+* SY Rowdy
 * SY Is a Rose
 * MY Aurelia
+* SY Svea
