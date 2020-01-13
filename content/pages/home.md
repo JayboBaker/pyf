@@ -22,15 +22,15 @@ section2: >-
   individual area of your yacht, using the correct technique whether it be
   brush, roll and tip or a Spray finish to ensure an outstanding result.
 gallery:
-  - alt: Yacht decking
-    image: /img/yacht1.jpg
-    title: 'Clean '
-  - alt: Rear of yacht
-    image: /img/yacht3.jpg
-    title: Steps
-  - alt: Side view of super yacht
-    image: /img/yacht4.jpg
-    title: Super yacht
+  - alt: Interior Table Varnish Spray Finish
+    image: /img/table-spray-finish-.jpg
+    title: ' '
+  - alt: 'High Gloss Spray Finish '
+    image: /img/bar-high-gloss-spray-fisnih.jpg
+    title: ''
+  - alt: Spray varnish super yachts
+    image: /img/23969643_1801560363474625_8318565570257616896_n.jpg
+    title: ''
 accordion:
   - description: >-
       We use only the best and most advanced products in the industry for
@@ -46,7 +46,10 @@ accordion:
       small spot repairs and extra coats of varnish, our team are here to make
       that happen.
     title: Exterior
-  - description: ....
+  - description: >-
+      0We sometimes know that the perfect finish can not be achieved on board.
+      Pinnacle Yacht Finishing can happily and confidently remove anything to be
+      worked on and finished in the workshop. 
     title: Workshop
   - description: >-
       Pinnacle Yacht Finishing know that sometimes there isn’t the time in the
