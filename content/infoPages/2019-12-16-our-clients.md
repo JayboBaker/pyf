@@ -1,28 +1,27 @@
 ---
 template: DefaultPage
-slug: clientss
+slug: Clients
 title: Our Clients
-featuredImage: /img/yacht1.jpg
+featuredImage: /img/genevieve.jpg
 meta:
   description: A selection of our clients to date
   title: View our clients
 ---
-# We've worked on some of the most prestigeous yachts to dock in Palma Marina.
+# We've worked on some of the most prestigious yachts in Palma Marina.
 
-
-
-* Some boat name
-* The biggest nice boats
-* Perfect Chemistry
-* Little Miss Magic
-* Where To Now
-* Blowin' In The Wind
-* Slow Boat
-* Indigo Dreams
-* Whistle Blower
-* Lady Cassandra
-* Reel Appeal
-* Lady Kay
-* Marissa
-* White Orchid
-* Pacific Breeze
+* _SY Onghiara_
+* _MY Hush_
+* _MY Ianya_
+* _SY Genevieve_
+* _SY Moonbird_
+* _SY No Timing_
+* _MY Cyan_
+* _SY Melek_
+* _MY Beaugeste_
+* _SY Sea Shuttle_ 
+* _MY Samakanda_
+* _SY Atalante_
+* _SY Rowdy_
+* _SY Is a Rose_
+* _MY Aurelia_
+* _SY Svea_

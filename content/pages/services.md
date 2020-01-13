@@ -5,13 +5,15 @@ meta:
   title: Our Services
 slug: services
 title: Our Services
-subtitle: We offer a wide range of services and are always happy to provide estimates
-featuredImage: /img/yacht3.jpg
+subtitle: >-
+  _We offer a wide range of services and are always happy to provide a no
+  obligation quote._
+featuredImage: /img/beautifully-varnished-wood-sailboat-1024x764.jpg
 section1: >-
   ## 
 
 
-  ## Interior 
+  ## Interior
 
 
   Pinnacle Yacht finishing are specialists in Interior varnish work. We use only
@@ -19,12 +21,12 @@ section1: >-
   quality and perfect finish.
 
 
-  With our extensive product knowledge our team have the skills to tint woods to
-  match any colour or sheen
+  With our extensive product knowledge our team have the skills to tint and
+  whitewash woods to match any colour or sheen.
 
 
   For interior work we often use a spray finish for the very best quality. We
-  quickly and efficiently build onsite spray cabins installing the correct
+  quickly and efficiently build onboard spray cabins installing the correct
   extraction units to not only ensure a flawless finish but ensure the health
   and safety of your crew too.
 
@@ -32,7 +34,7 @@ section1: >-
   ## 
 
 
-  ## Exterior 
+  ## Exterior
 
 
   We are very proud of our exterior finishes and are experts in all areas
@@ -51,16 +53,12 @@ section1: >-
 
   ##
 section2: >-
-  ## Winter Maintenance 
+  ## Workshop
 
 
-  This essential work reduces your long-term costs as well as keeping the yacht
-  looking her best. We are happy to advise how best you can ensure your yacht
-  looks amazing all year round because prevention is far more cost effective
-  than repeated repair. 
-
-
-  ## 
+  We sometimes know that the perfect finish can not be achieved on board.
+  Pinnacle Yacht Finishing can happily and confidently remove anything to be
+  worked on and finished in the workshop. 
 
 
   ## 
@@ -74,30 +72,24 @@ section2: >-
   touch up repairs executed to an extremely high standard.
 
 
-  Weather these be scratches, dings or de lamination we can fix the damage using
+  Weather these be scratches, dings or delamination we can fix the damage using
   high quality Konig Waxes, pens and resins to make sure we get the best match
   possible. 
 
 
   ##
-accordion:
-  - description: Taciti lorem tempor quam vestibulum dis habitasse
-    title: Taciti lorem
-  - description: Taciti lorem tempor quam vestibulum dis habitasse
-    title: Taciti lorem
-  - description: Taciti lorem tempor quam vestibulum dis habitasse
-    title: Taciti lorem
-  - description: Taciti lorem tempor quam vestibulum dis habitasse
-    title: Taciti lorem
+accordion: []
 gallery:
-  - alt: 'Yacht at sea '
-    image: /img/yacht2.jpg
-    title: Arial decking shot
-  - alt: Super yacht side on
-    image: /img/yacht4.jpg
-    title: We work on all types of yacht
+  - alt: Matt brush finish Milesi varnish floor
+    image: /img/sea-shutle-wheel-house-floor.jpg
+    title: ''
+  - alt: High Gloss Spray Finish
+    image: /img/sprayed.jpg
+    title: ''
   - alt: Yacht finisher preparing the decking
-    image: /img/71279821_407743153259214_4441213775697149952_o.jpg
-    title: One of our highly skilled finishers
+    image: /img/beaugest-close-up-of-rail.jpg
+    title: ''
+  - alt: White Wash Varnish Yacht Finish
+    image: /img/white-wash.jpg
 ---
 

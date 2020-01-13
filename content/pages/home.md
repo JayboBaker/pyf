@@ -6,7 +6,7 @@ meta:
 slug: ''
 title: Professional Nautical Finishing
 subtitle: ' Welcome to the home of top quality yacht finishing in Palma De Mallorca'
-featuredImage: /img/71279821_407743153259214_4441213775697149952_o.jpg
+featuredImage: /img/stripping-rail-5.jpg
 section1: >-
   ## Some of our services
 
@@ -22,15 +22,15 @@ section2: >-
   individual area of your yacht, using the correct technique whether it be
   brush, roll and tip or a Spray finish to ensure an outstanding result.
 gallery:
-  - alt: Yacht decking
-    image: /img/yacht1.jpg
-    title: 'Clean '
-  - alt: Rear of yacht
-    image: /img/yacht3.jpg
-    title: Steps
-  - alt: Side view of super yacht
-    image: /img/yacht4.jpg
-    title: Super yacht
+  - alt: Interior Table Varnish Spray Finish
+    image: /img/table-spray-finish-.jpg
+    title: ' '
+  - alt: 'High Gloss Spray Finish '
+    image: /img/bar-high-gloss-spray-fisnih.jpg
+    title: ''
+  - alt: Spray varnish super yachts
+    image: /img/23969643_1801560363474625_8318565570257616896_n.jpg
+    title: ''
 accordion:
   - description: >-
       We use only the best and most advanced products in the industry for
@@ -47,11 +47,10 @@ accordion:
       that happen.
     title: Exterior
   - description: >-
-      Winter Maintenance is essential and reduces your long-term costs as well
-      as keeping the yacht looking her best. We are happy to advise how best you
-      can ensure your yacht looks amazing all year round because prevention is
-      far more cost effective than repeated repair.
-    title: Winter Maintenance
+      We sometimes know that the perfect finish can not be achieved on board.
+      Pinnacle Yacht Finishing can happily and confidently remove anything to be
+      worked on and finished in the workshop. 
+    title: Workshop
   - description: >-
       Pinnacle Yacht Finishing know that sometimes there isn’t the time in the
       schedule, and you may need a quick fix, that’s why we can provide on board
