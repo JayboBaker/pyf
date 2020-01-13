@@ -6,7 +6,7 @@ meta:
 slug: ''
 title: Professional Nautical Finishing
 subtitle: ' Welcome to the home of top quality yacht finishing in Palma De Mallorca'
-featuredImage: /img/71279821_407743153259214_4441213775697149952_o.jpg
+featuredImage: /img/stripping-rail-5.jpg
 section1: >-
   ## Some of our services
 
