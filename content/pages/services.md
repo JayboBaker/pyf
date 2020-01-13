@@ -56,7 +56,9 @@ section2: >-
   ## Workshop
 
 
-  .....................
+  We sometimes know that the perfect finish can not be achieved on board.
+  Pinnacle Yacht Finishing can happily and confidently remove anything to be
+  worked on and finished in the workshop. 
 
 
   ## 
@@ -70,11 +72,9 @@ section2: >-
   touch up repairs executed to an extremely high standard.
 
 
-  Weather these be scratches, dings or de lamination we can fix the damage using
+  Weather these be scratches, dings or delamination we can fix the damage using
   high quality Konig Waxes, pens and resins to make sure we get the best match
   possible. 
-
-
 
 
   ##
