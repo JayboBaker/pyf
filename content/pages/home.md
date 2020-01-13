@@ -47,7 +47,7 @@ accordion:
       that happen.
     title: Exterior
   - description: >-
-      0We sometimes know that the perfect finish can not be achieved on board.
+      We sometimes know that the perfect finish can not be achieved on board.
       Pinnacle Yacht Finishing can happily and confidently remove anything to be
       worked on and finished in the workshop. 
     title: Workshop
