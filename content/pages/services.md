@@ -1,7 +1,7 @@
 ---
 template: ServicesPage
 meta:
-  description: A selection of some the services we offer
+  description: A selection of some of the services we offer
   title: Our Services
 slug: services
 title: Our Services
