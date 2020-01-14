@@ -7,7 +7,6 @@ import Layout from '../components/Layout.js'
 import Accordion from '../components/Accordion'
 import BackgroundVideo from '../components/BackgroundVideo'
 import Gallery from '../components/Gallery'
-import Popup from '../components/Popup'
 
 // Export Template for use in CMS preview
 export const ServicesPageTemplate = ({
@@ -59,14 +58,6 @@ export const ServicesPageTemplate = ({
         <Accordion items={accordion} />
       </div>
     </section>
-{/*
-    <section className="section">
-      <div className="container">
-        <Popup>
-          <Content source={section1} />
-        </Popup>
-      </div>
-    </section> */}
   </main>
 )
 
