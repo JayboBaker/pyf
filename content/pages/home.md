@@ -25,11 +25,11 @@ gallery:
   - alt: Interior Table Varnish Spray Finish
     image: /img/table-spray-finish-.jpg
     title: ' '
+  - alt: Spray Varnish Yachts
+    image: /img/23969643_1801560363474625_8318565570257616896_n.jpg
+    title: ''
   - alt: 'High Gloss Spray Finish '
     image: /img/bar-high-gloss-spray-fisnih.jpg
-    title: ''
-  - alt: Spray varnish super yachts
-    image: /img/23969643_1801560363474625_8318565570257616896_n.jpg
     title: ''
 accordion:
   - description: >-
