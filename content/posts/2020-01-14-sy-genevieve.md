@@ -7,6 +7,8 @@ status: Published
 date: 2019-10-01T10:54:51.778Z
 featuredImage: /img/genevieve.jpg
 excerpt: Exterior Varnish onboard SY Genevieve
+categories:
+  - category: Yachts
 gallery:
   - alt: 'Stripping Capping Rail '
     image: /img/71279821_407743153259214_4441213775697149952_o.jpg
