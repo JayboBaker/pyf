@@ -57,7 +57,7 @@ export const HomePageTemplate = ({
 
 
     {section1 &&
-      <section className="section">
+      <section className="section section--inverted">
       <div className="container">
         <Content source={section1} />
       </div>
