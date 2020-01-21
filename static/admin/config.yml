@@ -100,8 +100,8 @@ collections: # A list of collections the CMS should be able to edit
                   required: false,
                 }
 
-      - file: 'content/pages/blog.md'
-        label: 'Blog Page'
+      - file: 'content/pages/work.md'
+        label: 'Work Page'
         name: 'blog-page'
         fields:
           - {
@@ -357,6 +357,7 @@ collections: # A list of collections the CMS should be able to edit
         widget: 'list'
         fields:
           - label: 'Category'
+            default: 'Yachts'
             name: 'category'
             widget: 'relation'
             collection: 'postCategories'
