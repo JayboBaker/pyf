@@ -9,7 +9,12 @@ meta:
 ---
 # We've worked on some of the most prestigious yachts in Palma Marina.
 
-* _SY Onghiara_
+## _SY Onghiara_
+
+> "James Prooduced work to a very high standard"
+>
+> Captain Jon - SY Ongihiara
+
 * _MY Hush_
 * _MY Ianya_
 * _SY Genevieve_
@@ -25,5 +30,3 @@ meta:
 * _SY Is a Rose_
 * _MY Aurelia_
 * _SY Svea_
-* _MY Christina G_
-* _MY Legend_
