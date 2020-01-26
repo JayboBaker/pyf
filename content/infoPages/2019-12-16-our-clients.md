@@ -25,3 +25,5 @@ meta:
 * _SY Is a Rose_
 * _MY Aurelia_
 * _SY Svea_
+* _MY Christina G_
+* _MY Legend_
