@@ -9,7 +9,7 @@ import _kebabCase from 'lodash/kebabCase'
 import './Gallery.css'
 import 'react-photoswipe/lib/photoswipe.css'
 
-const Gallery = ({ images = [] }) => {
+const Gallery = ({ images = [], isStacked }) => {
   const [ isOpen, setOpen ] = useState(false)
   const [ activeImageIndex, setActiveImageIndex ] = useState(0)
 
@@ -25,10 +25,13 @@ const Gallery = ({ images = [] }) => {
   return (
     <Fragment>
       {images && images.length > 0 && (
-        <div className="Gallery">
+        <div className={`Gallery ${isStacked ? 'Gallery-column' : 'Gallery-row'}`}>
           {images.map((image, index) => index < 3 && (
             <figure
-              className="Gallery--Item"
+              className={`
+                Gallery--Item
+                ${isStacked ? 'Gallery--Item-column' : 'Gallery--Item-row'}
+              `}
               key={_kebabCase(image.alt) + '-' + index}
               onClick={() => {
                 setActiveImageIndex(index)
