@@ -34,9 +34,9 @@ export const ContactPageTemplate = ({
             {address && (
               <a
                 className="Contact--Details--Item"
-                href={`https://www.google.com.au/maps/search/${encodeURI(
+                href={`https://www.google.com/maps/search/${encodeURI(
                   address
-                )}`}
+                )}?key=AIzaSyD5hJ1E0SDq1cpQDUFWh2srvNc6vx85c1Q`}
                 target="_blank"
                 rel="noopener noreferrer"
               >
