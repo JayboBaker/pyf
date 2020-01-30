@@ -36,7 +36,7 @@ export const ContactPageTemplate = ({
                 className="Contact--Details--Item"
                 href={`https://www.google.com/maps/search/${encodeURI(
                   address
-                )}?key=AIzaSyCF0rD7gG-kbasrAMv13eaje-xNJsnlC_U`}
+                )}`}
                 target="_blank"
                 rel="noopener noreferrer"
               >
