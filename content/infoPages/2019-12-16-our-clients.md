@@ -11,11 +11,11 @@ meta:
 
 ## _SY Onghiara_
 
-> "James Prooduced work to a very high standard"
->
-> Captain Jon - SY Ongihiara
-
 ## _MY Hush_
+
+> "James' results are top quality, I would recommend his work to all in need for yacht finishing projects" 
+
+Captain Stewart Boyd - MY Hush.  
 
 ## _MY Ianya_
 
@@ -40,6 +40,12 @@ meta:
 ## _SY Rowdy_
 
 ## _SY Is a Rose_
+
+> " I have absolutely no hesitation in recommending Pinnacle Yacht Finishing to anyone looking for a non-nonsense company, who are willing to go to great lengths to ensure the highest quality finish."
+>
+>
+
+Chief Mate Daniel Northall - SY Is a Rose.
 
 ## _MY Aurelia_
 
