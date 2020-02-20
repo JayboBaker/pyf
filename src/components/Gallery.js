@@ -56,7 +56,6 @@ const Gallery = ({ images = [], isStacked }) => {
           onMovePrevRequest={() => setActiveImageIndex((activeImageIndex + sliderImages.length - 1) % sliderImages.length)}
           onMoveNextRequest={() => setActiveImageIndex((activeImageIndex + 1) % sliderImages.length)}
           imageCaption={images[activeImageIndex].alt}
-          imageTitle={images[activeImageIndex].title}
         />
       )}
 
