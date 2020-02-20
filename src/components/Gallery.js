@@ -1,26 +1,23 @@
 import React, { Fragment, useState } from 'react'
 import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
-import { PhotoSwipe } from 'react-photoswipe'
+import Lightbox from 'react-image-lightbox'
 import Image from './Image'
 
 import _kebabCase from 'lodash/kebabCase'
 
+import 'react-image-lightbox/style.css'; // This only needs to be imported once in your app
+
 import './Gallery.css'
-import 'react-photoswipe/lib/photoswipe.css'
+// import 'react-photoswipe/lib/photoswipe.css'
 
 const Gallery = ({ images = [], isStacked }) => {
   const [ isOpen, setOpen ] = useState(false)
   const [ activeImageIndex, setActiveImageIndex ] = useState(0)
 
-  const getImageInfo = ({ image, title }, index) => ({
-    src: image,
-    title,
-    w: 1000,
-    h: 1000,
-  })
+  const getImageSrcArray = ({ image }) => (image)
 
-  const sliderImages = images.map(getImageInfo)
+  const sliderImages = images.map(getImageSrcArray)
 
   return (
     <Fragment>
@@ -51,15 +48,15 @@ const Gallery = ({ images = [], isStacked }) => {
         </div>
       )}
       {isOpen && sliderImages.length > 0 && (
-        <PhotoSwipe
-          isOpen={isOpen}
-          items={sliderImages}
-          options={{
-            index: activeImageIndex,
-            history: false,
-            closeOnScroll: false
-          }}
-          onClose={() => setOpen(false)}
+        <Lightbox
+          mainSrc={sliderImages[activeImageIndex]}
+          nextSrc={sliderImages[(activeImageIndex + 1) % sliderImages.length]}
+          prevSrc={sliderImages[(activeImageIndex + sliderImages.length - 1) % sliderImages.length]}
+          onCloseRequest={() => setOpen(false)}
+          onMovePrevRequest={() => setActiveImageIndex((activeImageIndex + sliderImages.length - 1) % sliderImages.length)}
+          onMoveNextRequest={() => setActiveImageIndex((activeImageIndex + 1) % sliderImages.length)}
+          imageCaption={images[activeImageIndex].alt}
+          imageTitle={images[activeImageIndex].title}
         />
       )}
 

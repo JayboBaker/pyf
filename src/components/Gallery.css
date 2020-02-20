@@ -84,3 +84,7 @@ width: 100%;
     max-width: 100%;
   }
 }
+
+.ril__captionContent {
+  width: 100%;
+}
