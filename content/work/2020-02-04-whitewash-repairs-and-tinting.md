@@ -13,7 +13,7 @@ gallery:
     title: Sanded and whitewashed interior steps.
   - alt: 'Repairs, interior stairs'
     image: /img/atalante-interior-steps-repaird-2.jpg
-    title: 'Interior Stairs being repaired and sanded. '
+    title: 'Interior stairs being repaired and sanded. '
   - alt: 'Tinting, interior varnish'
     image: /img/stripped-.jpg
     title: 'Interior counter top stripped back, sanded and ready to be tinted.'
