@@ -15,6 +15,6 @@ meta:
   description: This is a meta description.
   title: Contact Page
 ---
-# Request a call back
+# Email us..
 
-Send us a short message detailing what it is you'd like to know
+Tell us more us more about your needs;
