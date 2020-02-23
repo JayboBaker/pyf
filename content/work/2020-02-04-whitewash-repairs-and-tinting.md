@@ -4,7 +4,7 @@ title: 'Whitewash, repairs and tinting. '
 status: Published
 date: 2020-02-04T16:19:34.672Z
 featuredImage: /img/white-wash.jpg
-excerpt: 'Some examples of the Whitewash, tinting and repair work we do.'
+excerpt: 'Examples of the Whitewash, tinting and repair work we do.'
 categories:
   - category: Services
 gallery:
