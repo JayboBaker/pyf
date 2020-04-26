@@ -9,49 +9,7 @@ subtitle: >-
   _We offer a wide range of services and are always happy to provide a no
   obligation quote._
 featuredImage: /img/beautifully-varnished-wood-sailboat-1024x764.jpg
-section1: >-
-  ## 
-
-
-  ## Interior
-
-
-  Pinnacle Yacht finishing are specialists in Interior varnish work. We use only
-  the best and most advanced products in the industry for durability and high
-  quality and perfect finish.
-
-
-  With our extensive product knowledge our team have the skills to tint and
-  whitewash woods to match any colour or sheen.
-
-
-  For interior work we often use a spray finish for the very best quality. We
-  quickly and efficiently build onboard spray cabins installing the correct
-  extraction units to not only ensure a flawless finish but ensure the health
-  and safety of your crew too.
-
-
-  ## 
-
-
-  ## Exterior
-
-
-  We are very proud of our exterior finishes and are experts in all areas
-  whether we are stripping back to bare wood and restoring the wood to its
-  former beauty or just giving a fresh look by enhancing the finish with small
-  spot repairs and extra coats of varnish, our team are here to make that
-  happen. We use the appropriate technique to always give a flawless finish
-  either using a brush or spraying. We also know how important the Sika work is
-  onboard and are happy to replace and or repair around the varnish whenever
-  necessary.
-
-
-  We know how awful sun damage is for varnish and you can be sure that all our
-  products have the highest UV filter
-
-
-  ##
+section1: "## \n\n## Interior\n\nSpecialist in interior varnish work. We use only the best and most advanced products in the industry, for durability and a high-quality perfect finish.\r\n\nWith our extensive product knowledge our team have the skills to tint and whitewash wood to match any colour or sheen.\r\n\nFor interior work we often use a spray finish for the very best quality. We quickly and efficiently build onboard spray cabins, installing the correct extraction units. To not only ensure a flawless finish, but the health and safety of your crew.\r\n\n## \n\n## Exterior\n\nWe are very proud of our exterior finishes and are experts in all areas whether we are stripping back to bare wood and restoring the wood to its former beauty or just giving a fresh look by enhancing the finish with small spot repairs and extra coats of varnish, our team are here to make that happen. We use the appropriate technique to always give a flawless finish either using a brush or spraying. We also know how important the Sika work is onboard and are happy to replace and or repair around the varnish whenever necessary.\n\nWe know how awful sun damage is for varnish and you can be sure that all our products have the highest UV filter\n\n##"
 section2: >-
   ## Workshop
 
