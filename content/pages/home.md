@@ -15,12 +15,12 @@ section1: >-
   mile. Ensuring the work is completed to the highest quality and finished on
   time. We do minor touch up repairs, to major refit projects.
 section2: >-
-  ## Rely on our expertise
+  ## You can rely on our expertise
 
 
-  We will help guide you through the correct choices of products for each
-  individual area of your yacht, using the correct technique whether it be
-  brush, roll and tip or a Spray finish to ensure an outstanding result.
+  We will help guide you through the correct choice of products, for each
+  individual area of your yacht. Using the correct technique (brush, roll & tip
+  or a spray finish) to ensure an outstanding result.
 gallery:
   - alt: Interior Table Varnish Spray Finish
     image: /img/table-spray-finish-.jpg
