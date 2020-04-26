@@ -59,6 +59,6 @@ accordion:
       Konig Waxes, pens and resins to make sure we get the best match possible.
     title: Touch Up Repairs
 ---
-# We complete our work to highest standards
+# We complete our work to the highest standard
 
-Pinnacle Yacht finishing have over 12 years’ experience of working on high end motor and classic Yachts providing a full service in yacht finishing and re finishing. using the most innovative range of products in the industry ensuring the highest durability, always finished with a meticulous attention to detail.
+Pinnacle Yacht Finishing have over 12 years’ experience of working on high end motor and classic yachts.  Using the most innovative range of products in the industry, to ensure the highest durability. We always finish with meticulous attention to detail, providing a full service in yacht finishing and re finishing.
