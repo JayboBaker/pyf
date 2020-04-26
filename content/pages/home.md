@@ -34,17 +34,17 @@ gallery:
 accordion:
   - description: >-
       We use only the best and most advanced products in the industry for
-      durability and high quality and perfect finish. With our extensive product
-      knowledge our team have the skills to tint woods to match any colour or
-      sheen for interior work we often use a spray finish for the very best
+      durability, high quality and a perfect finish. With our extensive product
+      knowledge, our team have the skills to tint wood to match any colour or
+      sheen. Interior work we often use a spray finish for the very best
       quality.
     title: Interior
   - description: >-
-      We are very proud of our exterior finishes and are experts in all areas
-      whether we are stripping back to bare wood and restoring the wood to its
-      former beauty or just giving a fresh look by enhancing the finish with
-      small spot repairs and extra coats of varnish, our team are here to make
-      that happen.
+      We are experts in all areas and are very proud of our exterior finishes.
+      Whether you want us to strip back to the bare wood to restore to its
+      former beauty, or just give a fresh look by enhancing the finish with
+      small spot repairs and extra coats of varnish. Our team are here to make
+      it happen.
     title: Exterior
   - description: >-
       We sometimes know that the perfect finish can not be achieved on board.
