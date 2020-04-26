@@ -56,9 +56,9 @@ section2: >-
   ## Workshop
 
 
-  We sometimes know that the perfect finish can not be achieved on board.
-  Pinnacle Yacht Finishing can happily and confidently remove anything to be
-  worked on and finished in the workshop. 
+  We know it’s not always possible to achieve the perfect finish on board. We
+  can happily and confidently remove anything to be worked on and finished in
+  the workshop.
 
 
   ## 
@@ -67,17 +67,12 @@ section2: >-
   ## Touch Up Repairs
 
 
-  Pinnacle Yacht Finishing know that sometimes there isn’t the time in the
-  schedule, and you may need a quick fix, that’s why we can provide on board
-  touch up repairs executed to an extremely high standard.
+  If you need a quick fix, but don’t have time in your busy schedule. We can
+  provide on board touch up repairs, executed to an extremely high standard. 
 
 
-  Weather these be scratches, dings or delamination we can fix the damage using
-  high quality Konig Waxes, pens and resins to make sure we get the best match
-  possible. 
-
-
-  ##
+  Scratches, dings or delamination, we can fix the damage using high quality
+  Konig Waxes, pens and resins, to make sure we get the best possible match.
 accordion: []
 gallery:
   - alt: Matt brush finish Milesi varnish floor
