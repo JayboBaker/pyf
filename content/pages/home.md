@@ -8,12 +8,12 @@ title: Professional Nautical Finishing
 subtitle: ' Welcome to the home of top quality yacht finishing in Palma De Mallorca'
 featuredImage: /img/stripping-rail-5.jpg
 section1: >-
-  ## Some of our services
+  ## Our Services
 
 
-  From Minor Touch up repairs to major refit projects our skilled team at
-  Pinnacle Yacht Finishing are always ready to go the extra mile to ensure your
-  work is of the highest quality and finished on time.
+  Our skilled team at Pinnacle Yacht Finishing are always ready to go the extra
+  mile. Ensuring the work is completed to the highest quality and finished on
+  time. We do minor touch up repairs, to major refit projects.
 section2: >-
   ## Rely on our expertise
 
