@@ -52,11 +52,11 @@ accordion:
       finished in the workshop.
     title: Workshop
   - description: >-
-      Pinnacle Yacht Finishing know that sometimes there isn’t the time in the
-      schedule, and you may need a quick fix, that’s why we can provide on board
-      touch up repairs executed to an extremely high standard. Weather these be
-      scratches, dings or de lamination we can fix the damage using high quality
-      Konig Waxes, pens and resins to make sure we get the best match possible.
+      If you need a quick fix, but don’t have time in your busy schedule. We can
+      provide on board touch up repairs, executed to an extremely high standard.
+      Scratches, dings or delamination, we can fix the damage using high quality
+      Konig Waxes, pens and resins, to make sure we get the best possible
+      match. 
     title: Touch Up Repairs
 ---
 # We complete our work to the highest standard
