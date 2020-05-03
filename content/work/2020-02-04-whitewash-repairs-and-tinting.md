@@ -1,6 +1,6 @@
 ---
 template: SinglePostA
-title: 'Whitewash, repairs and tinting. '
+title: 'Whitewash, Repairs and Tinting'
 status: Published
 date: 2020-02-04T16:19:34.672Z
 featuredImage: /img/white-wash.jpg
@@ -10,13 +10,13 @@ categories:
 gallery:
   - alt: 'Whitewash, varnish, matching colours/'
     image: /img/white-wash-2.jpg
-    title: Sanded and whitewashed interior steps.
+    title: Interior steps - Sanded and whitewashed.
   - alt: 'Repairs, interior stairs'
     image: /img/atalante-interior-steps-repaird-2.jpg
-    title: 'Interior stairs being repaired and sanded. '
+    title: 'Interior stairs - Repaired and sanded. '
   - alt: 'Tinting, interior varnish'
     image: /img/stripped-.jpg
-    title: 'Interior counter top stripped back, sanded and ready to be tinted.'
+    title: 'Interior counter top - Stripped back, sanded and ready to be tinted.'
 accordion: []
 ---
-Some examples of the Whitewash, tinting and repair work we do.
+Examples of our Whitewash, Repairs and Tinting.
