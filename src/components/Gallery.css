@@ -2,8 +2,13 @@
   position: relative;
   width: 100%;
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
+}
+.Gallery-row {
+  flex-direction: row;
+}
+.Gallery-column {
+  flex-direction: column;
 }
 
 @media screen and (max-width: 750px) {
@@ -18,23 +23,47 @@
   position: relative;
   display: flex;
   flex-direction: column;
-  width: calc(100% / 3 - 5rem);
   margin: 0;
   padding: 0;
   cursor: pointer;
+
+}
+
+.Gallery--Item-row {
+width: calc(100% / 3 - 5rem);
+}
+.Gallery--Item-column {
+width: 100%;
 }
 
 @media screen and (max-width: 750px) {
-  .Gallery--Item {
+  .Gallery--Item-row {
     width: 100%;
-    max-width: 30rem;
+    max-width: 40rem;
   }
 }
 
 .Gallery--Item > div {
   position: relative;
   width: 100%;
-  height: 25rem;
+      padding: 20px 0 10px 0;
+
+}
+
+.Gallery--Item-row > div {
+  height: 30rem;
+
+}
+
+@media screen and (max-width: 750px) {
+.Gallery--Item-row > div {
+  height:40rem;
+}
+}
+
+
+.Gallery--Item-column > div {
+  height: 50rem;
 }
 
 .Gallery--Item figcaption {
@@ -54,4 +83,8 @@
     min-width: 100%;
     max-width: 100%;
   }
+}
+
+.ril__captionContent {
+  width: 100%;
 }

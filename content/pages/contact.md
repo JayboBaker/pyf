@@ -17,4 +17,4 @@ meta:
 ---
 # Request a call back
 
-Send us a short message detailing what it is you'd like to know
+Send us a short message, with details of how we can help and we will get back to you.

@@ -13,9 +13,7 @@ import './SinglePost.css'
 
 const renderGallery = (gallery) =>
   <section className="section">
-    <div className="container">
-      <Gallery images={gallery} />
-    </div>
+      <Gallery images={gallery} isStacked={true} />
   </section>
 
 export const SinglePostTemplateD = ({
@@ -36,7 +34,7 @@ export const SinglePostTemplateD = ({
       itemType="http://schema.org/BlogPosting"
     >
       <div className="container skinny">
-        <Link className="SinglePost--BackButton" to="/blog/">
+        <Link className="SinglePost--BackButton" to="/work/">
           <ChevronLeft /> BACK
         </Link>
         <div className="SinglePost--Content relative">
