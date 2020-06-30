@@ -8,14 +8,13 @@ import Gallery from '../components/Gallery'
 import Layout from '../components/Layout.js'
 import PageHeader from '../components/PageHeader'
 
-
-const renderGallery = (gallery) =>
+const renderGallery = gallery => (
   <section className="section">
     <div className="container">
       <Gallery images={gallery} />
     </div>
   </section>
-
+)
 
 // Export Template for use in CMS preview
 export const HomePageTemplate = ({
@@ -45,39 +44,35 @@ export const HomePageTemplate = ({
       </div>
     </section>
 
-    {video &&
+    {video && (
       <section className="BackgroundVideo-section section">
         <BackgroundVideo poster={videoPoster} videoTitle={videoTitle}>
           {video && <source src={video} type="video/mp4" />}
         </BackgroundVideo>
       </section>
-    }
+    )}
 
     {!!gallery && !!gallery.length && renderGallery(gallery)}
 
-
-    {section1 &&
+    {section1 && (
       <section className="section section--inverted">
-      <div className="container">
-        <Content source={section1} />
-      </div>
-      <div className="container">
-        <br />
-        {accordion && <Accordion items={accordion} />}
-      </div>
-    </section>
-    }
+        <div className="container">
+          <Content source={section1} />
+        </div>
+        <div className="container">
+          <br />
+          {accordion && <Accordion items={accordion} />}
+        </div>
+      </section>
+    )}
 
-    {section2 &&
+    {section2 && (
       <section className="section">
         <div className="container">
           <Content source={section2} />
         </div>
       </section>
-    }
-
-
-
+    )}
   </main>
 )
 

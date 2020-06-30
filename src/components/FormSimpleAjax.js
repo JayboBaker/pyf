@@ -101,7 +101,6 @@ class Form extends React.Component {
                 type="text"
                 placeholder="Firstname"
                 name="firstname"
-
                 onChange={this.handleChange}
               />
               <span>Firstname</span>

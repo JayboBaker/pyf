@@ -11,10 +11,11 @@ import Gallery from '../components/Gallery'
 
 import './SinglePost.css'
 
-const renderGallery = (gallery) =>
+const renderGallery = gallery => (
   <section className="section">
-      <Gallery images={gallery} isStacked={true} />
+    <Gallery images={gallery} isStacked={true} />
   </section>
+)
 
 export const SinglePostTemplateD = ({
   accordion,
@@ -42,10 +43,7 @@ export const SinglePostTemplateD = ({
             {categories && (
               <Fragment>
                 {categories.map((cat, index) => (
-                  <span
-                    key={index}
-                    className="SinglePost--Meta--Category"
-                  >
+                  <span key={index} className="SinglePost--Meta--Category">
                     {cat.category}
                     {/* Add a comma on all but last category */}
                     {index !== categories.length - 1 ? ',' : ''}
@@ -65,28 +63,26 @@ export const SinglePostTemplateD = ({
             <Content source={body} />
           </div>
 
-
           {!!gallery && !!gallery.length && renderGallery(gallery)}
 
-          {section1 &&
+          {section1 && (
             <div className="container">
               <Content source={section1} />
             </div>
-          }
+          )}
 
-          {section2 &&
-              <div className="container">
-                <Content source={section2} />
-              </div>
-          }
+          {section2 && (
+            <div className="container">
+              <Content source={section2} />
+            </div>
+          )}
 
-
-          {accordion &&
+          {accordion && (
             <div className="container">
               <br />
               {accordion && <Accordion items={accordion} />}
             </div>
-          }
+          )}
           <div className="SinglePost--Pagination">
             {prevPostURL && (
               <Link
