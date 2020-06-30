@@ -72,7 +72,7 @@ export default class InstagramFeed extends Component {
     </div>
   )
 
-  renderInner () {
+  renderInner() {
     return (
       <div>
         <br />
@@ -94,7 +94,7 @@ export default class InstagramFeed extends Component {
           ))}
         </div>
       </div>
-      )
+    )
   }
   render() {
     console.log(this.state)

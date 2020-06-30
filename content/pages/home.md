@@ -56,9 +56,13 @@ accordion:
       provide on board touch up repairs, executed to an extremely high standard.
       Scratches, dings or delamination, we can fix the damage using high quality
       Konig Waxes, pens and resins, to make sure we get the best possible
-      match. 
+      match.
     title: Touch Up Repairs
 ---
 # We complete our work to the highest standard
 
 Pinnacle Yacht Finishing have over 12 years’ experience of working on high end motor and classic yachts.  Using the most innovative range of products in the industry, to ensure the highest durability. We always finish with meticulous attention to detail, providing a full service in yacht finishing and re finishing.
+
+> "James' results are top quality, I would recommend his work to all in need for yacht finishing projects"
+>
+> **Captain Stewart Boyd - MY Hush.**

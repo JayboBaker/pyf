@@ -96,13 +96,56 @@ pre code:after {
   display: none;
 }
 blockquote {
-  margin-left: 0;
-  padding-left: 1em;
+  text-align: left;
+  margin: 0 0 2rem 0;
+  padding: 1.5em 1em 0.5em;
+  font-weight: 400;
   line-height: 1.1;
-  font-size: 1em;
+  font-size: 1.3em;
   font-style: italic;
-  border-left: 2px solid var(--primary);
+  border: 1px solid var(--primary);
+  background-color: var(--primary);
+  color: white;
+  border-radius: 6px;
+  box-shadow: 10px 11px 27px -13px rgba(0,0,0,0.75);
+  quotes: "\201C""\201D""\2018""\2019";
+  position: relative;
 }
+
+/* blockquote:after {
+
+  content: '';
+  border: 20px solid transparent;
+  border-left: 20px solid var(--primary);
+  border-top: 20px solid var(--primary);
+  position: absolute;
+  bottom: -20px;
+  left: 40px;
+} */
+
+
+blockquote strong {
+  text-align: left;
+  display: inline-block;
+  font-style: normal;
+  font-size: 0.8em;
+  width: 100%;
+}
+
+@media (max-width: 600px) {
+
+  blockquote {
+    padding: 1em 1em 0.2em;
+    line-height: 1;
+    font-size: 0.9em;
+    margin-bottom: 1.5em;
+  }
+
+  blockquote strong {
+    font-size: 0.8em;
+  }
+}
+
 
 /* Utility Classes */
 .light {
@@ -182,7 +225,7 @@ blockquote {
 @media (max-width: 600px) {
   .section {
     width: 100%;
-    padding: 5rem 0;
+    padding: 3rem 0;
   }
   .section.thick {
     padding: 7rem 0;

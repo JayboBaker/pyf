@@ -54,6 +54,14 @@ export const HomePageTemplate = ({
 
     {!!gallery && !!gallery.length && renderGallery(gallery)}
 
+    {section2 && (
+      <section className="section">
+        <div className="container">
+          <Content source={section2} />
+        </div>
+      </section>
+    )}
+
     {section1 && (
       <section className="section section--inverted">
         <div className="container">
@@ -62,14 +70,6 @@ export const HomePageTemplate = ({
         <div className="container">
           <br />
           {accordion && <Accordion items={accordion} />}
-        </div>
-      </section>
-    )}
-
-    {section2 && (
-      <section className="section">
-        <div className="container">
-          <Content source={section2} />
         </div>
       </section>
     )}
