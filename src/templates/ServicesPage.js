@@ -54,12 +54,13 @@ export const ServicesPageTemplate = ({
         </BackgroundVideo>
       </section>
     )}
-
-    <section className="section">
-      <div className="container">
-        <Accordion items={accordion} />
-      </div>
-    </section>
+    {!!accordion.length && (
+      <section className="section">
+        <div className="container">
+          <Accordion items={accordion} />
+        </div>
+      </section>
+    )}
   </main>
 )
 

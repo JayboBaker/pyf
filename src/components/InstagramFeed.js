@@ -72,22 +72,35 @@ export default class InstagramFeed extends Component {
     </div>
   )
 
-  render() {
-    if (!this.state.posts.length) {
-      return this.renderLoadingItems()
-    }
+  renderInner () {
     return (
-      <div className="InstagramFeed">
-        {this.state.posts.slice(0, this.props.count).map(post => (
-          <Post
-            key={post.code}
-            src={post.display_src}
-            code={post.code}
-            caption={post.caption}
-          />
-        ))}
+      <div>
+        <br />
+        <h2 className="taCenter">
+          Follow us{' '}
+          <a href="https://instagram.com/pinnacleyachtfinishing/">
+            @pinnacleyachtfinishing
+          </a>
+        </h2>
+        <br />
+        <div className="InstagramFeed">
+          {this.state.posts.slice(0, this.props.count).map(post => (
+            <Post
+              key={post.code}
+              src={post.display_src}
+              code={post.code}
+              caption={post.caption}
+            />
+          ))}
+        </div>
       </div>
-    )
+      )
+  }
+  render() {
+    console.log(this.state)
+    return !this.state.posts.length
+      ? this.renderLoadingItems()
+      : this.renderInner()
   }
 }
 
