@@ -7,7 +7,6 @@ meta:
   description: A selection of our clients to date
   title: View our clients
 ---
-
 > "I have absolutely no hesitation in recommending Pinnacle Yacht Finishing to anyone looking for a non-nonsense company, who are willing to go to great lengths to ensure the highest quality finish."
 >
 > **Chief Mate Daniel Northall - SY Is a Rose.**
@@ -16,35 +15,44 @@ meta:
 
 Below you'll find just some of our happy clients
 
-### _SY Onghiara_
+### *SY Onghiara*
 
-### _MY Hush_
+### *MY Hush*
 
-### _MY Ianya_
+### *MY Ianya*
 
-### _SY Genevieve_
+### *SY Genevieve*
 
-### _SY Moonbird_
+### *SY Moonbird*
 
-### _SY No Timing_
+### *SY No Timing*
 
-### _MY Cyan_
+### *MY Cyan*
 
-### _SY Melek_
+### *SY Melek*
 
-### _MY Beaugeste_
+### *MY Beaugeste*
 
-### _SY Sea Shuttle_
+### *SY Sea Shuttle*
 
-### _MY Samakanda_
+### *MY Samakanda*
 
-### _SY Atalante_
+### *SY Atalante*
 
-### _SY Rowdy_
+### *SY Rowdy*
 
-### _SY Is a Rose_
+### *SY Is a Rose*
 
-### _MY Aurelia_
+### *MY Aurelia*
 
-### _SY Svea_
+### *SY Svea*
 
+### *MY Spada*
+
+### *SY Meagan*
+
+### *SY My1*
+
+### *MY Gforce*
+
+### *MY Legend*
