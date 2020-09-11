@@ -60,6 +60,7 @@ export default ({ children, meta, title }) => {
               <link rel="dns-prefetch" href="https://ucarecdn.com" />
               <meta name="msapplication-TileColor" content="#ffffff" />
               <meta name="theme-color" content="#ffffff" />
+              <meta name="google-site-verification" content="BF_oBhkG1Fei5IpcVC9lfZuYPpzCYSQb6EKLoihukCw" />
               {/* Add font link tags here */}
             </Helmet>
 
