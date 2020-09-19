@@ -6,6 +6,6 @@ meta:
   title: Our Work
 slug: work
 title: Our Work
-subtitle: We pride ourselves on completing work to the highest standard
+subtitle: We pride ourselves on completing varnish work to the highest standard
 featuredImage: /img/boot-2623425_1280.jpg
 ---
