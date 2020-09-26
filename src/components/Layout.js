@@ -60,7 +60,8 @@ export default ({ children, meta, title }) => {
               <link rel="dns-prefetch" href="https://ucarecdn.com" />
               <meta name="msapplication-TileColor" content="#ffffff" />
               <meta name="theme-color" content="#ffffff" />
-              <meta name="google-site-verification" content="BF_oBhkG1Fei5IpcVC9lfZuYPpzCYSQb6EKLoihukCw" />
+              <meta name="google-site-verification" content="BF_oBhkG1Fei5IpcVC9lfZuYPpzCYSQb6EKLoihukCw" /> {/* Google verification */}
+              <meta name="msvalidate.01" content="C4A1692BB50658A3F9C302236958B973" /> {/* Bing verification */}
               {/* Add font link tags here */}
             </Helmet>
 
