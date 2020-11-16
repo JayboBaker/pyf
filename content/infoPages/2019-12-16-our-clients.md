@@ -31,7 +31,7 @@ Below you'll find just some of our happy clients
 
 ### *SY Melek*
 
-### *MY Beaugeste*
+### *SY Beaugeste*
 
 ### *SY Sea Shuttle*
 
