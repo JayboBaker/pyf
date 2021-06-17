@@ -55,6 +55,6 @@ accordion:
 
 Pinnacle Yacht Finishing have over 12 years’ experience of working on high-end motor and classic yachts in Palma de Mallorca Using the most innovative range of products in the industry, to ensure the highest durability. We always finish with meticulous attention to detail, providing a full service in yacht finishing and re-finishing.
 
-> "James' results are top quality, I would recommend his work to all in need for yacht finishing projects"
+> "Thank you so much for your amazing work onboard! We would not look as amazing as we do without the participation of Pinnacle. We greatly appreciate your hard work and look forward to working with you again in the future." 
 >
-> **Captain Stewart Boyd - MY Hush.**
+> Kendyll Chief Stew -SY Twizzle
