@@ -61,6 +61,10 @@ Below you'll find just some of our happy clients
 
 ### *SY Blush*
 
-### SY Twizzle 
+### SY Twizzle
 
 ### SY Lionheart
+
+### SY Archelon
+
+### SY panthalassa
