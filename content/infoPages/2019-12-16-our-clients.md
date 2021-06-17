@@ -67,4 +67,8 @@ Below you'll find just some of our happy clients
 
 ### SY Archelon
 
-### SY panthalassa
+### SY Panthalassa
+
+### SY Vertigo 
+
+### SY Borkumriff IV
