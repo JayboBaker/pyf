@@ -69,6 +69,14 @@ Below you'll find just some of our happy clients
 
 ### SY Panthalassa
 
-### SY Vertigo 
+### SY Vertigo
 
 ### SY Borkumriff IV
+
+### MY Polar Star
+
+### SY Nadejda 
+
+### SY Silvertip
+
+### SY Bacchus
